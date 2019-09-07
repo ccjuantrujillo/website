@@ -19,6 +19,15 @@ p{
 	margin:30px 0;
 }
 
+/* CSS Document */
+.fondo{
+/*background-image: url('../img/fondo.jpg')*/
+}
+
+.fondowhite{
+/*background-color: #00FF00;*/
+}
+
 header.masthead{
 	margin-bottom: 50px;
 	--background: no-repeat center center;
@@ -48,3 +57,5 @@ header.masthead .overlay{
     padding: 100px 0;
   }
 }
+
+
