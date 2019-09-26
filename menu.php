@@ -11,9 +11,9 @@
 			<span class="sr-only">(current)</span>
 		  </a>
 		</li>
-		<!--li class="nav-item">
-		  <a class="nav-link" href="#">Acerca de mi</a>
-		</li-->
+		<li class="nav-item">
+		  <a class="nav-link" href="santo_rosario.php">Rosario</a>
+		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="cancionero/index.php">Cancionero</a>
 		</li>
