@@ -8,15 +8,12 @@
 	  <ul class="navbar-nav ml-auto">
 		<li class="nav-item active">
 		  <a class="nav-link" href="index.php">Inicio
-			<span class="sr-only">(current)</span>
-		  </a>
-		</li>
+			<span class="sr-only">(current)</span>		  </a>		
+	    </li>
 		<li class="nav-item">
-		  <a class="nav-link" href="santo_rosario.php">Rosario</a>
-		</li>
+		  <a class="nav-link" href="santo_rosario.php">Rosario</a>		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="cancionero/index.php">Cancionero</a>
-		</li>
+		  <a class="nav-link" href="cancionero/index.php">Cancionero</a>		</li>
 	  </ul>
 	</div>
   </div>

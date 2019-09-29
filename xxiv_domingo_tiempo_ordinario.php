@@ -166,11 +166,7 @@
           </div>
 
           <!-- Side Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Acerca de mí</h5>
-            <div class="card-body">
-              La Capilla Santa Rosa tuvo sus orígenes en la época de los yanaconas del Ex Fundo Santa Rosa...            </div>
-          </div>
+		<?php include_once("acerca.php");?>
         </div>
 
       </div>

@@ -42,107 +42,217 @@
           <p>
 		  	Creo en Dios, Padre todopoderoso, Creador<br>
 		  	del cielo y de la tierra. Creo en Jesucristo,<br>
-		  	su unico Hijo, 
+	  	  su unico Hijo, nuestro Senor, que fue<br>
+          concebido por obra y gracia del Espiritu<br>
+          Santo, nacio de Santa Maria Virgen, padecio<br>
+          bajo el poder de Poncio Pilatos, fue<br>
+          crucificado, muerto y sepultado, descendio<br>
+          a los infiernos, al tercer dia resucito de<br>
+          entre los muertos, subio a los cielos y esta<br>
+          sentado a la derecha de Dios, Padre<br>
+          todopoderoso, Desde alli ha de venir a<br>
+          juzgar a vivos y muertos. Creo en el Espiritu<br>
+          Santo, la santa Iglesia catolica, la comunion<br>
+          de los santos, el perdon de los pecados,m la<br>
+          resurrecion de la carne y la vida eterna. Amen.
 </p>
           <blockquote class="blockquote">
-            <p class="mb-0"><b>Gloria<br>Oracion Colecta</b></p>
+            <p class="mb-0"><strong>2. PADRE NUESTRO </strong></p>
           </blockquote>		  
 		  
-		  <p>Oh, Dios, que has puesto la plenitud de la ley divina en el amor a ti y al projimo, concedenos cumplir tus mandamientos, para que merezcamos llegar a la vida eterna. Por nuestro Senor Jesucristo.</p>
+		  <p>Padre nuestro, que estas en el cielo,<br>
+		    santificado sea tu Nombre; venga a <br>
+		    nosotros tu reino, hagase tu voluntad,<br>
+		    en la tierra como en el cielo. Danos hoy<br>
+		    nuestro pan de cada dia; perdona nuestras<br>
+		    ofensas, como tambien nosotros<br>
+		    perdonamos a los que nos ofendes;<br>
+		    no nos dejes caer en la tentacion<br>
+		    y libranos del mal. Amen.
+</p>
 		  
           <blockquote class="blockquote">
             <p class="mb-0">
-			<b>1era Lectura:</b>
+			<strong>3. AVE MARIA </strong>
 			</p>
-            <footer class="blockquote-footer">
-			El profeta Amos lee la historia de Israel como un momento de juicio frente a la conducta de injusticia y falta de fraternidad que clama a Dios y es escuchado por El. <br>
-			Lectura de la profecia de Amos 8,4-7 </footer>
           </blockquote>
 
-          <p>Escuchen esto, los que oprimen al pobre, y tratan de eliminar a la gente humilde, diciendo: ¿Cuando pasara la fiesta de la luna nueva, para vender el trigo, y el sabado, para ofrecer el grano?. Disminuyen ustedes la medida, aumentan el precio, usan balanzas con trampa, compran por dinero al pobre, al misero por un par de sandalias, vendiendo hasta el salbado del trigo. El Senor lo ha jurado por el honor de Jacob: nunca olvidare lo que han hecho. <br>
-          Palabra de Dios. R. Te alabamos Señor.</p>
+          <p>Dios te salve, Maria; llena eres de gracia;<br>
+            el Senor es contigo; bendita Tu eres entre<br>
+            todas las mujeres, y bendito es el fruto<br>
+            de tu vientre, Jesus. Santa Maria, Madre<br>
+            de Dios, ruega por nosotros pecadores, <br>
+            ahora y en la hora de nuestra muerte. Amen.
+</p>
 
           <blockquote class="blockquote">
-            <p class="mb-0"><b>Salmo(50)</b></p>
-            <footer class="blockquote-footer">R. Alaben al Senor, que alza de la miseria al pobre. </footer>
+            <p class="mb-0"><strong>4. GLORIA </strong></p>
           </blockquote>
 
-          <p>- Alaben, siervos del Senor, alaben el nombre del Senor, alaben el nombre del Senor. Bendito sea el nombre del Senor, ahora y por siempre. / R.<br>
-            - El Senor se eleva sobre todos los pueblos, su gloria sobre los cielos. ¿Quien como el Senor, Dios nuestro, que se eleva en su trono y se inclina para mirar al cielo y a la tierra? / R.<br>
-            - Levanta del polvo al desvalido, alza de la basura al pobre, para sentarlo con los principes, los principes de su pueblo. / R.
+          <p>Gloria al Padre, al Hijo, y al Espiritu Santo.<br>
+            Como era en el principio, ahora y siempre,<br>
+            y por los siglos de los siglos. Amen.
+          </p>
+          <blockquote class="blockquote">
+            <p class="mb-0"><strong>JACULATORIA</strong></p>
+          </blockquote>
+
+          <p>Oh Jesus, perdona nuestros pecados,<br>
+            salvanos del fuego del infierno y guia todas<br>
+            las almas al Cielo, especialmente aquellas<br>
+            que necesitan mas de tu misericordia.
 </p>
           <blockquote class="blockquote">
-            <p class="mb-0"><b>2da Lectura</b></p>
-            <footer class="blockquote-footer">Pablo en su carta a Timoteo nos invita a ser hombres y mujeres de fe en medio de un mundo dificil y contradictorio, el cual necesita aproximarse a Dios misericordioso y providente. <br>
-            Lectura de la primera carta del apostol san Pablo a Timoteo 2, 1-8 </footer>
+            <p class="mb-0"><strong>5. SALVE</strong></p>
           </blockquote>
 
-          <p>Querido hermano: Te ruego, ante todo, que se hagan oraciones, plegarias, suplicas, acciones de gracias por todos los hombres, por los reyes y por todas las autoridades, para que podamos llevar una vida tranquila y pacifica, religiosa y digna. Eso es bueno y grato ante los ojos de Dios, nuestro Salvador, que quiere que todos los hombres se salven y lleguen al conocimiento de la verdad. Porque Dios es uno, y uno solo es el mediador entre Dios y los hombres, Cristo Jesus, hombre tambien, que se entrego en rescate por todos: este es el testimonio dado a su debido tiempo, del cual he sido yo constituido mensajero y apostol, - digo la verdad, no miento-, y maestro de las naciones en la fe y en la verdad. Por lo tanto, quiero que sean los hombres los que oren en cualquier lugar, alzando las manos limpias, sin ira ni divisiones.</p>
-          <p>Palabra de dios. R. Te alabamos, Senor. </p>
-          <blockquote class="blockquote">
-            <p class="mb-0"><b>Aclamacion antes del Evangelio 2 Co 8,9 </b></p>
-            <footer class="blockquote-footer">Aleluya, aleluya. Jesucristo, siendo rico, se hizo pobre, para enriquecerlos con su pobreza. R. Aleluya.
-            </footer>
-          </blockquote>
 
-          <blockquote class="blockquote">
-            <p class="mb-0"><b>Evangelio</b></p>
-            <footer class="blockquote-footer">Lucas, en su evangelio, nos pone en la encrucijada de escoger y optar el verdadero camino, renunciando a toda esclavitud e idolatria, pues ser cristiano es optar por Cristo .<br>
-              Lectura del santo evangelio segun san Lucas
-        16, 10-13 </footer>
-          </blockquote>
 
-<p>R. Gloria a ti, Señor.<br>
-  En aquel tiempo, dijo Jesus a sus discipulos: Un hombre rico tenia un administrador, a quien acusaron ante su senor de malgastar sus bienes. Entonces lo llamo y le dijo: &quot;¿Es cierto lo que me cuentan de ti? Entregame el balance de tu gestion, porque quedas despedido&quot;. El administrador se puso a pensar: &quot;¿Que voy a hacer ahora que mi senor me quita el empleo? Para trabajar la tierra no tengo fuerzas; mendigar me da verguenza. Ya se lo que voy a hacer para que, cuando me echen de la administracion, encuentre quien me reciba en su casa&quot;. Fue llamando uno a uno a los deudores de su senor y dijo al primero: &quot;¿Cuanto debes a mi senor?&quot; Este respondio: &quot;Cien barriles de aceite&quot;. El le dijo: &quot;Aqui esta tu recibo; date prisa, sientate y escribe cincuenta&quot;. Luego le dijo a otro: &quot;Y tu, ¿cuanto debes?&quot; El contesto: &quot;Cien sacos de trigo&quot;. Le dijo: &quot;Aqui esta tu recibo, escribe ochenta&quot;. Y el amo felicito al administrador injusto, por la astucia con que habia procedido. Y es que, los hijos de este mundo son mas astutos con su gente que los hijos de la luz. Por eso les digo: Ganense amigos con el dinero injusto, para que, cuando les falte, los reciban a ustedes en las moradas eternas.<br> 
-  El que es de fiar en lo poco, lo es tambien en lo mucho; el que no es honrado en lo minimo tampoco en lo importante es honrado. Si no fueron de confianza con el injusto dinero, ¿quien les confiara los bienes verdaderos? Y si no fueron fieles con lo ajeno, ¿quien les confiara lo que les pertenece a ustedes? Ningun siervo puede servir a dos senores, pues odiara a uno y amara al otro o sera fiel a uno y despreciara al otro. No pueden servir a Dios y al dinero. <br>
-  Palabra del Señor. R. Gloria a ti, Señor Jesús</p>
-
-          <blockquote class="blockquote">
-            <p class="mb-0"><b>Profesion de fe</b></p>
-          </blockquote>
+<p>Dios te salve, Reina y Madre de<br>
+  misericordia, vida, dulzura y esperanza<br>
+  nuestra; Dios te salve. A Ti llamamos los<br>
+  desterrados hijos de Eva; a Ti suspiramos,<br>
+  gimiendo y llorando, en este valle de<br>
+  lagrimas. Ea, pues, Senora, abogada<br>
+  nuestra, vuelve a nosotros esos tus ojos<br>
+  misericordiosos; y despues de este<br>
+  destierro muestranos a Jesus, fruto bendito<br>
+  de tu vientre. ¡Oh Clemente, oh piadosa,<br>
+  oh dulce Virgen Maria!. Ruega por<br>
+  nosotros, Santa Madre de Dios. Para que<br>
+  seamos dignos de alcanzar las promesas<br>
+  y gracias de Nuestro Senor Jesucristo.<br>
+  Amen.
+</p>
 		  
           <blockquote class="blockquote">
-            <p class="mb-0"><b>Plegaria universal</b></p>
+            <p class="mb-0"><b>LETANIAS</b></p>
           </blockquote>	
 		  
-		  <p>S. Oremos a Dios Padre, que quiere que todos los hombres se salven y lleguen al conocimiento de la verdad. El apostol Pablo nos sugiere algunas intenciones de oracion, que hoy hacemos nuestras. Respondemos:<br>
-		    R. A ti, Senor, elevamos nuestra oracion.<br>
-		    - Por toda la Iglesia; para que sepa dar testimonio de Cristo en medio de nuestro mundo. Roguemos al Senor. / R.<br>
-		    - Por los que dirigen las naciones; para que sus esfuerzos por la paz y la justicia no sean en vano. Roguemos al Senor. / R.<br>
-		    - Por los responsables de la economia en escala mundial; para que procuren siempre el bien del hombre por encima de todos los intereses economicos. Roguemos al Senor. / R.<br>
-		    - Por nosotros; para que no caigamos en la tentacion de la codicia y no se metalice nuestro corazon. Roguemos al Senor. / R.<br>
-		    S. Alzamos las manos a Ti Padre Omnipotente, presentando nuestras necesidades y las del mundo. Danos a todos aquello que necesitamos para llevar una vida acorde a tud designios. Por Jesucristo Nuestro Senor. Amen.
-</p>	  
+		  <p>- Senor ten piedad (2 veces)<br>
+		    - Cristo, ten piedad (2 veces)<br>
+		    - Senor, ten piedad (2 veces)<br>
+		    - Cristo oyenos (2 veces)<br>
+		    - Cristo escuchanos (2 veces)<br>
+		    - Dios Padre Celestial, ten piedad de nosotros<br>
+&nbsp;&nbsp;Dios Hijo Redentor del mundo.<br>
+- Dios Espiritu Santo,<br>
+- Trinidad Santa, Un solo Dios</p>
+		  <p>Despues de cada una: <em>Ruega por nosotros:</em><br>
+		    - Santa Maria (Madre Castisima)<br>
+		      - Santa Madre de Dios (Madre virginal)<br>
+		      - Santa Virgen de las virgenes (Madre sin mancha, madre inmaculada)<br>
+		      - Madre de Cristo (Madre amable)<br>
+		      - Madre de la iglesia (Madre admirable)<br>
+		      - Madre de la divina gracia (Madre del buen consejo, madre del creador)<br>
+		      - 
+	        Madre purisima (Mdre del Salvador)<br>
+	        - Virgen prudentisima (Estrella de la manana)<br>
+	        - Virgen digna de veneracion (Salud de los enfermos)<br>
+	        - Virgen digna de alabanza (Refugio de los pecadores)<br>
+	        - Virgen poderosa (Mdre admirable) <br>
+	        - Virgen clemente (Madre del buen consejo) <br>
+	        - Virgen fiel (Madre del creador) <br>
+	        - Espejo de justicia (Madre del Salvador) <br>
+	        - Trono de sabiduria (Estrella de la manana) <br>
+	        - Trono de sabiduria (Salud de los enfermos) <br>
+	        - Causa de nuestra alegria (Refudio de los pecadores) <br>
+	        - Vaso espiritual (Consuelo de los afligidos) <br>
+	        - Vaso dino de honor (Auxilio de los cristianos) <br>
+	        - Vaso insigne de devocion (Reina de los angeles) <br>
+	        - Rosa mistica (Reina de los patriarcas) <br>
+	        - Torre de David (Reina de los profestas) <br>
+	        - Torre de marfil (Reina de los apostoles) <br>
+	        - Casa de oro (Reina de los Martires) <br>
+	        - Arca de la Alianza (Reina de los confesores) <br>
+	        - Puerta del cielo (Reina asunta al cielo) <br>
+	        - Reina de las virgenes (Reina del Santisimo Rosario) <br>
+	        - Reina de los santos (Reina de la paz) <br>
+	        - Reina concebida sin pecado original (Reina del mundo)
+	        <br>
+	        - Cordero de Dios, que quitas los pecados del mundo<br>
+	        &nbsp;&nbsp;&nbsp;<strong>Perdonanos, Senor.</strong><br>
+	        - Cordero de dios, que quitas los pecados del mundo
+	        <br>
+	         &nbsp;&nbsp;<strong>Escuchanos Senor </strong><br>
+	        - Cordero de dios, que quitas los pecados del mundo<br>
+	        &nbsp;&nbsp;<strong>Ten piedad de nosotros </strong><br>
+	        Ruega por nosotros Santa Madre de Dios<br>
+	        Para que seamos dignos de alcanzar<br>
+          las promesas de Nuestro Senor Jesucristo.</p>
+		  <p>Senor, te rogamos que por intercesion de <br>
+la	Virgen	Maria, gocemos de salud del alma<br>
+  y cuerpo, vivamos alegres en medio de <br>
+  las dificultades y alcancemos tu reino eterno.<br>
+  Por Jesucristo nuestro Senor. Amen.
+  </p>
+
 
           <blockquote class="blockquote">
-            <p class="mb-0"><b>Oracion sobre las ofrendas</b></p>
-            <footer class="blockquote-footer">Recibe, Senor, en tu bondad las ofrendas de tu pueblo, para que cuanto creemos por la fe lo alcancemos por el sacramento celestial.<br>
-			Por Jesucristo, nuestro Senor.
-        </footer>
+            <p class="mb-0"><b>BAJO TU AMPARO</b></p>
           </blockquote>
+		  
+<p>Bajo tu amparo nos acogemos, Santa Madre<br>
+  de Dios; no desprecies las oraciones que te<br>
+  dirigmos en nuestras necesidades,<br>
+  antes bien, libranos de todo peligro,<br>
+  Oh Virgen gloriosa y bendita.
+</p>
 
           <blockquote class="blockquote">
-            <p class="mb-0"><b>Antifona de comunion Sal 118, 4-5 </b></p>
-            <footer class="blockquote-footer">Tu, Senor, promulgas tus decretos para que se observen exactamente; ojala este firme mi camino para cumplir tus consignas.        </footer>
+            <p class="mb-0"><b>UN MINUTO CON LA VIRGEN</b></p>
           </blockquote>
+<p>Bendiceme, Madre!<br>
+  Y ruega por mi sin cesar.<br>
+  Aleja de mi hoy y siempre el pecado.<br>
+  Si tropiezo, tiende tu mano hacia mi.<br>
+  Si cien veces caigo, cien veces levantame.<br>
+  Si yo te olvido, tu no te olvides de mi.<br>
+  Si me dejas Madre!, Que sera de mi? .<br>
+  En los peligros del mundo asisteme<br>
+  Quiero vivir y morir bajo tu manto.<br>
+  Quiero que mi vida te haga sonreir.<br>
+  Mirame con compasion, no me dejes Madre Mia.<br>
+  Y al fin, sal a recibirme y llevarme junto a Ti<br>
+  Tu bendicion me acompane hoy y siempre<br>
+  Amen. (Un Avemaria)
+</p>
 
           <blockquote class="blockquote">
-            <p class="mb-0"><b>Oracion despues de la comunion</b></p>
-            <footer class="blockquote-footer">Senor, apoya bondadoso con tu ayuda continua a los que alimentas con tus sacramentos, para que consigamos el fruto de la salvacion en los sacramentos y en la vida diaria..<br>
-			Por Jesucristo, nuestro Senor.
-        </footer>
+            <p class="mb-0"><b>MINISTERIOS DEL ROSARIO</b></p>
           </blockquote>
 
-          <blockquote class="blockquote">
-            <p class="mb-0"><b>La palabra en la semana </b></p>
-            <footer class="blockquote-footer">23 L San Pio de Pietrelcina.<br>
-              24 M Nuestra Senora de la Merced<br>
-              25 M Feria<br>
-              26 J Santos Cosme y Damian<br>
-              27 V San Vicente de Paul<br>
-              28 S San Wenceslao
-        </footer>
-          </blockquote>
+<p><em>MINISTERIOS GOZOSOS (Lunes y Sabado)</em><br>
+  1. La encarnacion del Hijo de Dios.<br>
+  2. La visitacion de Maria a Isabel.
+    <br>
+    3. Nacimiento del Hijo de Dios.<br>
+    4. Purificacion de la Virgen Santisima.<br>
+    5. El Nino perdido y hallado en el Templo.
+    <br>
+    <em>MINISTERIOS DOLOROSOS (Martes y Viernes)</em><br>
+    1. Oracion de Nuestro Senor en el Huerto.<br>
+    2. La flagelacion del Senor.<br>
+    3. La coronacion de espinas.<br>
+    4. El camino del monte calvario.<br>
+    5. Curcifixion y muerte de Nuestro Senor
+    <br>
+    <em>MINISTERIOS GLORIOSOS (Miercoles y Domingo)    </em><br>
+    1. La resurrecion del Senor.<br>
+    2. La ascension del Senor.<br>
+    3. La venida del Espiritu Santo.<br>
+    4. Asuncion de nuestra Senora a los cielos.<br>
+    5. La coronacion de la Santisima Virgen.
+    <br>
+    <em>MINISTERIOS LUMINOSOS (Jueves) </em><br>
+1. El bautismo de Jesus en el Jordan.<br>
+2. Su autorevelacion en las bodas de Cana<br>
+3. Anuncio del Reino de Dios invitando a la conversion.<br>
+4. La transfiguracion.<br>
+5. La institucion de la Eucaristia.
+</p>
+
+<img src="img/rosario.png">
 
           <hr>
         </div>
