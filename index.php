@@ -1,3 +1,3 @@
 <?php
-header("location:xxv_domingo_tiempo_ordinario.php");
+header("location:xxvi_domingo_tiempo_ordinario.php");
 ?>

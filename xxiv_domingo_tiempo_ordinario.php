@@ -25,7 +25,7 @@
 
         <!-- Post Content Column -->
         <div class="col-lg-8">
-          <h4 class="mt-4">XXXIV DOMINGO DEL TIEMPO ORDINARIO</h4>
+          <h4 class="mt-4">XXIV DOMINGO DEL TIEMPO ORDINARIO</h4>
           <h4 class="mt-1">El amor misericordioso de Dios </h4>		  
           <p>Publicado el 15 Setiembre, 2019</p>
 

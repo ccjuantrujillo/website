@@ -25,7 +25,7 @@
 
         <!-- Post Content Column -->
         <div class="col-lg-8">
-          <h4 class="mt-4">XXXIII DOMINGO DEL TIEMPO ORDINARIO</h4>
+          <h4 class="mt-4">XXIII DOMINGO DEL TIEMPO ORDINARIO</h4>
           <h4 class="mt-1">Amar a Dios con todo el corazón, con toda el alma y con todo el Ser</h4>		  
           <p>Publicado el 08 Setiembre, 2019</p>
 
