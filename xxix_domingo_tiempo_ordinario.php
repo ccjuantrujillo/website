@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<meta name="description" content="La Capilla Santa Rosa tuvo sus origenes en la Ã©poca de los yanaconas del Ex Fundo Santa Rosa...">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="description" content="La Capilla Santa Rosa tuvo sus origenes en la época de los yanaconas del Ex Fundo Santa Rosa...">
 	<meta name="keywords" content="capilla,iglesia,parroquia,santa,rosa">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#f8d000">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Comunidad Santa Rosa | Parroquia Nuestra SeÃ±ora de las Misiones">
+	<meta name="twitter:title" content="Comunidad Santa Rosa | Parroquia Nuestra Señora de las Misiones">
 	<meta name="twitter:image" content="http://www.comunidadsantarosa.org/images/logo.jpg">
-	<meta name="twitter:description" content="La Capilla Santa Rosa tuvo sus orígenes en la época de los yanaconas del Ex Fundo Santa Rosa. Fue construida en el actual terreno el 30 de Agosto de 1955...">
+	<meta name="twitter:description" content="La Capilla Santa Rosa tuvo sus or�genes en la �poca de los yanaconas del Ex Fundo Santa Rosa. Fue construida en el actual terreno el 30 de Agosto de 1955...">
 	<title>Comunidad Santa Rosa</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -40,7 +40,7 @@
           <p class="lead">"De nuestra fe en Cristo, brota tambien la solidaridad como actitud permanente de encuentro, hermandad, servicio, que ha de manifestarse en opciones y gestos visibles   ". (Aparecida 394) </p>
 
           <blockquote class="blockquote">
-            <p class="mb-0">Hermanos y hermanas: Hoy vigesimo sexto domingo del tiempo ordinario la liturgia nos presenta el pecado de omision. Encontraremos al llamado rico Epulon quien peco de indiferencia sin ningun remordimiento ante la pobreza y el hambre del pobre Lazaro. Es momento de preguntarnos, ¿compartimos con los que menos tienen, o no les damos ni siquiera las migajas que nos sobran? </p>
+            <p class="mb-0">Hermanos y hermanas: Hoy vigesimo sexto domingo del tiempo ordinario la liturgia nos presenta el pecado de omision. Encontraremos al llamado rico Epulon quien peco de indiferencia sin ningun remordimiento ante la pobreza y el hambre del pobre Lazaro. Es momento de preguntarnos, &iquest;compartimos con los que menos tienen, o no les damos ni siquiera las migajas que nos sobran? </p>
           </blockquote>
 
 
@@ -78,9 +78,9 @@
           </blockquote>
 
           <p>Lectura de la profecia de Amos 6, 1a 4-7 <br>
-            Asi dice el Senor todopoderoso: ¡Ay de los que se sienten seguros en Sion y ponen su confianza en el monte de Samaria! Ustedes duermen en camas de marfil; se recuestan en lujosos sillones, comen los corderos del rebano y los terneros del establo; canturrean al son del arpa, inventan, como David, instrumentos musicales; beben vino en elegantes copas, se ungen con perfumes exquisitos sin apenarse por la ruina de Jose. Por eso iran al destierro a la cabeza de los deportados, y se acabara la orgia de los libertinos.
+            Asi dice el Senor todopoderoso: &iexcl;Ay de los que se sienten seguros en Sion y ponen su confianza en el monte de Samaria! Ustedes duermen en camas de marfil; se recuestan en lujosos sillones, comen los corderos del rebano y los terneros del establo; canturrean al son del arpa, inventan, como David, instrumentos musicales; beben vino en elegantes copas, se ungen con perfumes exquisitos sin apenarse por la ruina de Jose. Por eso iran al destierro a la cabeza de los deportados, y se acabara la orgia de los libertinos.
             <br>
-          Palabra de Dios. R. Te alabamos Señor.</p>
+          Palabra de Dios. R. Te alabamos Se&ntilde;or.</p>
 
           <blockquote class="blockquote">
             <p class="mb-0"><b>Salmo(145)</b></p>
@@ -97,7 +97,7 @@
             Lectura de la primera carta del apostol san Pablo a Timoteo 6,11-16 </footer>
           </blockquote>
 
-          <p>Hombre de Dios, practica la justicia, la piedad, la fe, el amor, la paciencia, la delicadeza. Pelea el buen combate de la fe. Conquista la vida eterna a la que fuiste llamado, y de la que hiciste solemne confesion ante muchos testigos. En presencia de Dios, que da vida a todas las cosas, y de Cristo Jesus, que dio solemne testimonio ante Poncio Pilato con tan noble confesion: te insisto en que guardes el mandamiento sin mancha ni reproche, hasta la manifestacion de nuestro Senor Jesucristo, que a su debido tiempo mostrara el bienaventurado y unico Soberano, Rey de los reyes y Senor de senores, el unico poseedor de la inmortalidad, que habita en una luz inaccesible, a quien ningun hombre ha visto ni puede ver. ¡A el sea el honor y el poder para siempre! Amen. </p>
+          <p>Hombre de Dios, practica la justicia, la piedad, la fe, el amor, la paciencia, la delicadeza. Pelea el buen combate de la fe. Conquista la vida eterna a la que fuiste llamado, y de la que hiciste solemne confesion ante muchos testigos. En presencia de Dios, que da vida a todas las cosas, y de Cristo Jesus, que dio solemne testimonio ante Poncio Pilato con tan noble confesion: te insisto en que guardes el mandamiento sin mancha ni reproche, hasta la manifestacion de nuestro Senor Jesucristo, que a su debido tiempo mostrara el bienaventurado y unico Soberano, Rey de los reyes y Senor de senores, el unico poseedor de la inmortalidad, que habita en una luz inaccesible, a quien ningun hombre ha visto ni puede ver. &iexcl;A el sea el honor y el poder para siempre! Amen. </p>
           <p>Palabra de dios. R. Te alabamos, Senor. </p>
           <blockquote class="blockquote">
             <p class="mb-0"><b>Aclamacion antes del Evangelio 2 Co 8,9 </b></p>
@@ -112,9 +112,9 @@
         16, 19-31 </footer>
           </blockquote>
 
-<p>R. Gloria a ti, Señor.<br>
+<p>R. Gloria a ti, Se&ntilde;or.<br>
   En aquel tiempo, dijo Jesus a los fariseos: Habia un hombre rico que se vestia de purpura y de lino y banqueteaba esplendidamente cada dia. Y un mendigo llamado Lazaro estaba echado junto a la puerta, cubierto de llagas, y con ganas de saciarse de lo que tiraban de la mesa del rico. Y hasta los perros se le acercaban a lamerle las llagas. Sucedio que se murio el mendigo, y los angeles lo llevaron al seno de Abraham. Se murio tambien el rico, y lo enterraron. Y, estando en el infierno, en medio de los tormentos, levantando los ojos, vio desde lejos a Abraham, y a Lazaro junto a el, y grito: &quot;Padre Abraham, ten piedad piedad de mi y manda a Lazaro que moje en agua la punta del dedo y me refresque la lengua, porque me torturan estas llaman&quot;. Pero Abraham le contesto: &quot;Hijo, recuerda que recibiste tus bienes en vida, y Lazaro, a su vez, males: por eso encuentra aqui consuelo, mientras que tu padeces. Y ademas, entre ustedes y nosotros se abre un abismo inmenso, para que no puedan cruzar, aunque quieran, desde aqui hacia ustedes, ni puedan pasar de ahi hasta nosotros&quot;. El rico insistio: &quot;Te ruego, entonces, padre, que mandes a Lazaro a casa de mi padre, porque tengo cinco hermanos, para que, con su testimonio, evites que vengan tambien ellos a este lugar de tormento&quot;. Abraham le dice: &quot;Tienen a Moises y a los profetas; que los escuchen&quot;. El rico contesto: &quot;No, padre Abraham. Pero si alguno de los muertos va a verlos, se arrepentiran&quot;. Abraham le dijo: &quot;Si no escuchan a moises y a los profetas, no haran caso ni aunque resucite un muerto&quot;. <br>
-  Palabra del Señor. R. Gloria a ti, Señor Jesús</p>
+  Palabra del Se&ntilde;or. R. Gloria a ti, Se&ntilde;or Jes&uacute;s</p>
 
           <blockquote class="blockquote">
             <p class="mb-0"><b>Profesion de fe</b></p>
