@@ -8,7 +8,7 @@
 include_once "menu.php";
 ?>
 <div class="container">
-<p align="center"><strong>138. MENSAJEROS DE LA PAZ </strong></p>
+<p align="center"><strong>138. MENSAJEROS DE LA PAZ  </strong></p>
 <p>El se&ntilde;or eligi&oacute; a sus disc&iacute;pulos, <br />
   Am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Am<br />
   los mand&oacute; de dos en dos.<br />
