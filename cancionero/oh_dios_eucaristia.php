@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>302. OH DIOS EUCARIST&Iacute;A</strong></p>
   <p><strong>&iexcl;Oh Dios Eucarist&iacute;a! &iexcl;Oh Cristo <br />
     Rey de amor! A Ti la fe nos <br />
@@ -31,6 +22,4 @@ include_once "menu.php";
     onda, fe alentados intr&eacute;pidos <br />
     cruzados, los hijos del Per&uacute;.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

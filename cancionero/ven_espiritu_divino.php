@@ -1,12 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?></head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>250. VEN ESP&Iacute;RITU DIVINO</strong></p>
   <p>Ven, ven, ven, Esp&iacute;ritu Divino; <br />
   ven, ven, ven, ac&eacute;rcate a m&iacute; (2v).</p>
@@ -20,6 +12,3 @@ include_once "menu.php";
     Aqu&iacute; se siente, la presencia de <br />
   Dios (2v).</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>

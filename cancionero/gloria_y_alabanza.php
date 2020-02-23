@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>59. GLORIA Y ALABANZA </strong></p>
   <p><strong>Gloria y alabanza, Gloria y <br />
     alabanza, Gloria y alabanza <br />
@@ -23,6 +14,4 @@ include_once "menu.php";
   <p>Porque es Gloria y Alabanza al <br />
     Se&ntilde;or.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

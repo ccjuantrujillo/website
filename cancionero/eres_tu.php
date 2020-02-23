@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>289. ERES T&Uacute;</strong></p>
   <p>Como una promesa eres T&uacute;, eres <br />
     T&uacute;. Como una ma&ntilde;ana de verano, <br />
@@ -27,6 +18,4 @@ include_once "menu.php";
     todo mi horizonte eres T&uacute;, eres <br />
     T&uacute;, as&iacute;, as&iacute;, eres T&uacute;.<br />
   </p>
-</div>
-</body>
-</html>
+

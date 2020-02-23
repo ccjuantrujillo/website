@@ -1,12 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?></head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>172. EL PROFETA</strong></p>
   <p>ENTRADA: Quena <br />
     Antes que te formaras, dentro del <br />
@@ -37,6 +29,4 @@ include_once "menu.php";
     Nada traigas contigo, porque a tu <br />
     lado yo estar&eacute;, es hora de luchar <br />
   porque mi pueblo, sufriendo est&aacute;.</p>
-</div>
-</body>
-</html>
+

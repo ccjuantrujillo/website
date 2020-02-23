@@ -1,14 +1,19 @@
+<?php
+if(!isset($estadoComunidad))  $estadoComunidad = "active";
+if(!isset($estadoCancionero)) $estadoCancionero = "";
+if(!isset($estadoMisas))      $estadoMisas = "";
+?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
+			<li class="nav-item <?php echo $estadoComunidad;?>">
 				<a class="nav-link" href="http://www.comunidadsantarosa.org/comunidad.php">Comunidad</a>
 			</li>			
-			<li class="nav-item">
+			<li class="nav-item <?php echo $estadoCancionero;?>">
 				<a class="nav-link" href="http://www.comunidadsantarosa.org/cancionero/indice_momentos.php">Cancionero</a>
 			</li>	
-			<li class="nav-item">
+			<li class="nav-item <?php echo $estadoMisas;?>">
 				<a class="nav-link" href="http://www.comunidadsantarosa.org/cancionero/misas.php">Misas</a>
 			</li>
 		</ul>

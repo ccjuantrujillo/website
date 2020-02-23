@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>285. HIMNO A SAN MART&Iacute;N</strong></p>
   <p><strong>&iexcl;Gloria inmortal a tu bendito <br />
     nombre, sol de amor, de los <br />
@@ -30,6 +21,4 @@ include_once "menu.php";
     viene a &eacute;l tu excelsa llamarada de <br />
     un pueblo har&aacute; tan s&oacute;lo un coraz&oacute;n.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

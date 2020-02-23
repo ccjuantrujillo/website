@@ -12,7 +12,12 @@ $rs = mysqli_query($link,$query);
 	<?php include_once "header.php";?>
 </head>
 <body>
-	<?php include_once "menu.php";?>
+	<?php 
+	$estadoComunidad = "";
+	$estadoCancionero = "active";
+	$estadoMisas = "";
+	include_once "menu.php";
+	?>
 	<div class="container">
 <h4 class="text-center">CANCIONERO MISIONERO</h4> 
 <h6 class="text-center">
@@ -22,6 +27,7 @@ $rs = mysqli_query($link,$query);
 		  <?php
 			$categoria_ini = "";
 			while($row = mysqli_fetch_array($rs)){
+				$id = $row["idcancion"];
 				$categoria = $row["descripcion"];
 				$orden = $row["orden"];
 				$url = $row["url"];
@@ -34,7 +40,7 @@ $rs = mysqli_query($link,$query);
 				//echo "<a href='".$url."'>".$orden.". ".$titulo."</a><br>";
 				?>
 				<div class="row">
-					<div class="col-lg col-sm col"><a href="<?php echo $url;?>"><?php echo $orden.". ".$titulo;?></a></div>
+					<div class="col-lg col-sm col"><a href="canciones.php?orden=<?php echo $orden;?>"><?php echo $orden.". ".$titulo;?></a></div>
 				</div>				
 				<?php
 			}

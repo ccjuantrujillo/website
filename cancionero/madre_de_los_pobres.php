@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>232. MADRE DE LOS POBRES</strong></p>
   <p>Madre    de    los    pobres,    de<br />
     los peregrinos te pedimos por <br />
@@ -27,6 +18,4 @@ include_once "menu.php";
     esclavo que nos hace libres, esa <br />
     luz un d&iacute;a nos diste en Bel&eacute;n.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

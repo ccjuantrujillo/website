@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>57. NO SE COMO ALABARTE</strong></p>
   <p>No s&eacute; c&oacute;mo alabarte, ni que <br />
     decir Se&ntilde;or. Conf&iacute;o en tu mirada <br />
@@ -23,6 +14,4 @@ include_once "menu.php";
     gran amor, tu esp&iacute;ritu me llena, <br />
     gracias te doy Se&ntilde;or</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

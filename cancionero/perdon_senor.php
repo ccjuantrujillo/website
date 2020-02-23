@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>44. PERDON SENOR</strong></p>
   <p>Por las veces que he vivido y de <br />
     ti me olvidado, por las veces que <br />
@@ -27,6 +18,4 @@ include_once "menu.php";
     actuar, por negarme a tu amor, <br />
     cuantas veces he querido.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

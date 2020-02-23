@@ -1,14 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
 
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
 <p align="center"><strong>49. GLORIA GIOMBINI</strong></p>
 <p><u>C</u> = (C-G-C-F-G )<br />
   Gloria.                               Gloria                     a  Dios en lo alto del cielo<br />
@@ -52,6 +42,4 @@ DO-SOL-LA-MIm-FA-SOL-DO</p>
 	<div class="col col-lg-auto col-md-auto col-sm-auto">
 	<p align="center"><img src="img/partituras/gloria_giombini_opt.jpg" width="800" height="1035" class="img-fluid" /></p>
 </div>
-</div>
-</body>
-</html>
+

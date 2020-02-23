@@ -1,12 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?></head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>366. SOBRE TU ALTAR</strong></p>
   <p>lam<br />
     Sobre tu altar, lo m&aacute;s preciado, Se&ntilde;or, <br />
@@ -41,6 +33,4 @@ sobre tu altar       mi vida entera.</p>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/NAW4QIG5mjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>	
 <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

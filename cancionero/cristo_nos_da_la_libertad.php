@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>280. CRISTO NOS DA LIBERTAD</strong></p>
   <p><strong>Cristo	nos	da	la	libertad,<br />
   Cristo nos da la salvaci&oacute;n, <br />
@@ -29,6 +20,4 @@ include_once "menu.php";
     ser&eacute; de Dios. <strong>Dame Se&ntilde;or tu<br />
     palabra&hellip;</strong><br />
   </p>
-</div>
-</body>
-</html>
+

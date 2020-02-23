@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>70. SI ME FALTA EL AMOR</strong></p>
   <p>Aunque yo dominara las lenguas <br />
     arcanas y el lenguaje del cielo <br />
@@ -28,6 +19,4 @@ include_once "menu.php";
     ni me sirve de nada, si me falta <br />
     el amor.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

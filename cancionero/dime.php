@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>298. DIME</strong></p>
   <p>Dime: &iquest;por qu&eacute; la gente no sonr&iacute;e? <br />
     &iquest;Por qu&eacute; las armas en las manos? <br />
@@ -33,6 +24,4 @@ que tal vez lo sabr&aacute;.</strong></p>
     &iquest;Por qu&eacute; el mendigo de la calle? <br />
     &iquest;Por qu&eacute; las bombas radioactivas? <br />
     Dime.</p>
-</div>
-</body>
-</html>
+

@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>134. PADRE NUESTRO MISIONERO </strong></p>
   <p>En el mar he o&iacute;do hoy, Se&ntilde;or tu <br />
     G<br />
@@ -37,6 +28,3 @@ include_once "menu.php";
     junto a &Eacute;l, yo repetirte.</p>
   <p><br />
   </p>
-</div>
-</body>
-</html>

@@ -1,14 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
 
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
 	<p align="center"><strong>10. JUNTOS COMO HERMANOS</strong></p>
 	<p><strong>Juntos como hermanos,<br />
 	  </strong>C<strong><br />
@@ -31,6 +21,3 @@ include_once "menu.php";
 	  viviremos nuestra fe, <br />
 	  con la ayuda del Se&ntilde;or.<br />
 	</p>
-</div>
-</body>
-</html>

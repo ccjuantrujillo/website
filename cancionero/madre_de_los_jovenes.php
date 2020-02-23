@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>231. MADRE DE LOS J&Oacute;VENES</strong></p>
   <p>Madre,  &oacute;yeme.  Mi  plegaria  es  un<br />
     grito  en  la  noche,  madre,  m&iacute;rame<br />
@@ -23,6 +14,4 @@ include_once "menu.php";
     carne que luchan, madre, tuyo soy <br />
     y en tus manos me vengo a poner.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

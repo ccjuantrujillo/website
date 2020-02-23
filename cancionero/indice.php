@@ -10,6 +10,9 @@ $rs = mysqli_query($link,$query);
 </head>
 <body>
 	<?php
+	$estadoComunidad = "";
+	$estadoCancionero = "active";
+	$estadoMisas = "";
 	include_once "menu.php";
 	?>
 	<div class="container">
@@ -23,6 +26,7 @@ $rs = mysqli_query($link,$query);
 		  <?php
 		  $capital_ini="";
 			while($row = mysqli_fetch_array($rs)){
+				$id = $row["idcancion"];
 				$orden = $row["orden"];
 				$url = $row["url"];
 				$titulo = $row["titulo"];
@@ -33,7 +37,7 @@ $rs = mysqli_query($link,$query);
 				} 		
 				?>
 				<div class="row">
-					<div class="col-lg col-sm col"><a href="<?php echo $url;?>"><?php echo $titulo;?></a></div>
+					<div class="col-lg col-sm col"><a href="canciones.php?orden=<?php echo $orden;?>"><?php echo $titulo;?></a></div>
 					<div class="col-lg col-sm col text-left"><?php echo $orden;?></div>
 				</div>
 				<?php

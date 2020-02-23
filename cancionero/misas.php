@@ -19,6 +19,9 @@ $rs = mysqli_query($link,$query);
 </head>
 <body>
 	<?php
+	$estadoComunidad = "";
+	$estadoCancionero = "";
+	$estadoMisas = "active";	
 	include_once "menu.php";
 	?>
 	<div class="container">

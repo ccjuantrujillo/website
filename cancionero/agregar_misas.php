@@ -117,6 +117,8 @@ if(isset($_POST["datepicker"]) && isset($_POST["descripcion"])){
 					});
 					selector = "<select class='form-control' name='"+nombre+"'>"+option+"</select>";
 					$( ".col-sm-5:eq("+id+")" ).append(selector);
+					caja = "<input type='text' name='txt"+nombre+"' class='form-control'>";
+					//$( ".col-sm-5:eq("+id+")" ).append(caja);					
 				},
 				error:function(){
 					alert('Se producjo un error');

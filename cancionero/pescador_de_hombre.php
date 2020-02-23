@@ -1,14 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
 
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
 <p align="center"><strong>187. PESCADOR DE HOMBRES</strong></p>
 <p>T&uacute;, has venido a  la orilla,  <br />
   C&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
@@ -33,6 +23,3 @@ amor que quiera seguir amando.</p>
 <p>T&uacute;, pescador de otros lagos, <br />
 ansia eterna, de almas que esperan. <br />
 Amigo bueno, que as&iacute; me llamas.</p>
-</div>
-</body>
-</html>

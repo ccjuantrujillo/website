@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>229. ERES MAS PURA</strong></p>
   <p><strong>Eres m&aacute;s   pura   que   el   sol,<br />
   m&aacute;s hermosa que, las perlas<br />
@@ -42,6 +33,4 @@ include_once "menu.php";
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Vj6bQcywZ54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>	
 <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

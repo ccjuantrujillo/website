@@ -1,14 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
 
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
 	<p align="center"><strong>13. UN PUEBLO QUE CAMINA </strong></p>
 	<p><strong>Un pueblo, camina por el <br />
   mundo, gritando: &iexcl;Ven, Se&ntilde;or! <br />
@@ -29,6 +19,3 @@ include_once "menu.php";
       puesta su esperanza en ti, Dios<br />
       de la Paz.<br />
     </p>
-</div>
-</body>
-</html>

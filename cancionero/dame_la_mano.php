@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>145. DAME LA MANO</strong></p>
   <p>No me importa de qu&eacute; barrio <br />
     vengas, si es que Cristo te trajo <br />
@@ -22,6 +13,4 @@ include_once "menu.php";
     Dios. Si tu coraz&oacute;n es como el m&iacute;o, <br />
     dame la mano y mi hermano ser&aacute;s.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

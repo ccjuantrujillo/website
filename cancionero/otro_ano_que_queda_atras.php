@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>265. OTRO A&Ntilde;O QUE QUEDA ATR&Agrave;S</strong></p>
   <p>Otro a&ntilde;o que queda atr&aacute;s, mil <br />
     momentos que recordar, otro a&ntilde;o <br />
@@ -27,6 +18,4 @@ include_once "menu.php";
     viento, la mar y el sol, dale vuelta <br />
     a tu coraz&oacute;n, y ll&eacute;nalo de amor.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

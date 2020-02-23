@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?>
-</head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
+
   <p align="center"><strong>276. MAS ALLA</strong></p>
   <p><br />
     Cuando das sin esperar, cuando <br />
@@ -46,6 +37,4 @@ include_once "menu.php";
     quieres forjar, un ma&ntilde;ana mejor,<br />
     hay paz en tu corazon.</p>
   <p>&nbsp;</p>
-</div>
-</body>
-</html>
+

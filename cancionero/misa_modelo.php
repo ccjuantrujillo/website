@@ -23,7 +23,7 @@ while($row=mysqli_fetch_array($rs)){
 	if($descripcion!= $descripcion_ant) $fila.="<h6>".strtoupper($row['descripcioncorta']).":</h6>";
 	$descripcion_ant = $descripcion;
 	$fila.="<div class='row'>";
-	$fila.="<div class='col-lg col-sm col'><a href='".$row['url']."'>".strtoupper($row['titulo'])." (".$row['orden'].") </a></div>";
+	$fila.="<div class='col-lg col-sm col'><a href='canciones.php?orden=".$row['orden']."'>".strtoupper($row['titulo'])." (".$row['orden'].") </a></div>";
 	$fila.="</div>";
 }		  
 ?>
@@ -33,10 +33,26 @@ while($row=mysqli_fetch_array($rs)){
 	<?php include_once "header.php";?>
 </head>
 <body>
-<?php include_once "menu.php";?>
+<?php 
+$estadoComunidad = "";
+$estadoCancionero = "";
+$estadoMisas = "active";	
+include_once "menu.php";
+?>
 <div class="container">
-	<p align="center"><strong><?php echo strtoupper($titulomisa);?></strong><br />
-	<strong><?php echo convierteFecha($fecha);?></strong></p>  
+	<div class="row">
+		<div class="col"></div>
+		<div class="col text-center">
+			<strong><?php echo strtoupper($titulomisa);?></strong><br>
+			<strong><?php echo convierteFecha($fecha);?></strong>
+		</div>
+		<div class="col text-right align-self-center">
+			<img src="img/word_icon.png" alt="Exportar Word" />
+			<img src="img/ppt_icon.jpg" alt="Exportar PPT" />
+			<a href="misa_modelo_pdf.php?idmisa=<?php echo $idmisa;?>" target="_blank"><img src="img/pdf_icon.png" alt="Exportar PDF"/></a>
+	    </div>		
+	</div>
+	</p>  
 	<?php echo $fila;?>
 </div>
 </body>
