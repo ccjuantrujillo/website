@@ -47,8 +47,8 @@ include_once "menu.php";
 			<strong><?php echo convierteFecha($fecha);?></strong>
 		</div>
 		<div class="col text-right align-self-center">
-			<img src="img/word_icon.png" alt="Exportar Word" />
-			<img src="img/ppt_icon.jpg" alt="Exportar PPT" />
+			<!--img src="img/word_icon.png" alt="Exportar Word" /-->
+			<!--img src="img/ppt_icon.jpg" alt="Exportar PPT" /-->
 			<a href="misa_modelo_pdf.php?idmisa=<?php echo $idmisa;?>" target="_blank"><img src="img/pdf_icon.png" alt="Exportar PDF"/></a>
 	    </div>		
 	</div>

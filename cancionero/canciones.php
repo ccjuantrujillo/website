@@ -21,16 +21,16 @@ $estadoMisas = "";
 include_once "menu.php"; 
 ?>
 <div class="container">
+	<div class="row">
+		<input type="hidden" name="orden" id="orden" value="<?php echo $orden;?>"/>
+		<div class="col"><button type="button" class="btn btn-link" id="atras"><<</button></div>
+		<div class="col text-right"><button type="button" class="btn btn-link" id="sgte">>></button></div>
+	</div>	
 	<?php
 	$row = mysqli_fetch_array($rs);
 	$url = 	$row["url"];
 	include_once $url;
 	?>
-	<div class="row">
-		<input type="hidden" name="orden" id="orden" value="<?php echo $orden;?>"/>
-		<div class="col"><button type="button" class="btn btn-link" id="atras">Anterior</button></div>
-		<div class="col text-right"><button type="button" class="btn btn-link" id="sgte">Siguiente</button></div>
-	</div>	
 </div>
 </body>
 </html>
