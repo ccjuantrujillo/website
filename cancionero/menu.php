@@ -2,9 +2,10 @@
 if(!isset($estadoComunidad))  $estadoComunidad = "active";
 if(!isset($estadoCancionero)) $estadoCancionero = "";
 if(!isset($estadoMisas))      $estadoMisas = "";
+if(!isset($buscarCancion))    $buscarCancion = false;
 ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-primary">
+  <div class="container"> 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item <?php echo $estadoComunidad;?>">
@@ -18,14 +19,19 @@ if(!isset($estadoMisas))      $estadoMisas = "";
 			</li>
 		</ul>
 	</div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-	<!--div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">&nbsp;</ul>
+	<?php
+	if($buscarCancion){
+	?>
 		<form class="form-inline my-2 my-lg-0">
-			<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button>
-		</form>
-	</div-->
-  </div>  
+		  <input class="form-control mr-sm-2" type="search" placeholder="Buscar cancion" style="width:150px;">
+		  <!--button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button-->
+		</form> 	
+	<?php
+	}
+	?>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	    </div>
 </nav>

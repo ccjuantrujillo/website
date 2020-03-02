@@ -34,7 +34,5 @@ D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 <div class="embed-responsive embed-responsive-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/iIOY5V8xf8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>	
-<p><br />
-  <br />
-</p>
+<p><br/></p>
 

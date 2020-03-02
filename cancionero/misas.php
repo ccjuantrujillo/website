@@ -44,8 +44,8 @@ $rs = mysqli_query($link,$query);
 				$ano_ant = $ano;
 				?>
 				<div class="row">
-					<div class="col-lg-2 col-md-2 col-sm col-6"><?php echo convierteFecha($fecha);?></a></div>
-					<div class="col-lg-10 col-md-10 col-sm col-6"><a href="<?php echo $url;?>"><?php echo $descripcion;?></a></div>
+					<div class="col-lg-2 col-md-2 col-5"><?php echo convierteFecha($fecha);?></a></div>
+					<div class="col-lg-10 col-md-10 col-7"><a href="<?php echo $url;?>"><?php echo $descripcion;?></a></div>
 				</div>
 				<?php
 			}

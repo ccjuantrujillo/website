@@ -16,6 +16,7 @@ $rs = mysqli_query($link,$query);
 	$estadoComunidad = "";
 	$estadoCancionero = "active";
 	$estadoMisas = "";
+	$buscarCancion = true;
 	include_once "menu.php";
 	?>
 	<div class="container">

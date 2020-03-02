@@ -15,6 +15,5 @@
 tu que quitas el pecado<br />
 tu que quitas el pecado <br />
 del mundo, danos la paz<br />
-danos la paz, danos la paz.
-</p>
-
+danos la paz, danos la paz.</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/768823900&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

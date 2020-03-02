@@ -28,9 +28,9 @@
 	llenas mi coraz&oacute;n, de alegr&iacute;a y paz <br />
 	contigo podr&eacute; yo caminar.</p>
 	<p>https://www.youtube.com/watch?v=q6WWeHXx8PU</p>
-	<p align="center">
+	<div class="embed-responsive embed-responsive-16by9">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/q6WWeHXx8PU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</p>
+	</div>	
 	<p>&nbsp;</p>
-	<p></p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269063242&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 

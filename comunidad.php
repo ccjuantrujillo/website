@@ -1,3 +1,3 @@
 <?php
-header("location:v_domingo_tiempo_ordinario_2020.php");
+header("location:i_domingo_cuaresma_2020.php");
 ?>

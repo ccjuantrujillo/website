@@ -1,19 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <?php include_once "header.php";?></head>
-<body>
-<?php
-include_once "menu.php";
-?>
-<div class="container">
-  <p align="center"><strong>NOMBRE CANCION </strong></p>
-  <p>Per</p>
-<p>https://www.youtube.com/watch?v=lJst7RGTT6c</p>
-<div class="embed-responsive embed-responsive-16by9">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/lJst7RGTT6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>	
-<p>&nbsp;</p>
-</div>
-</body>
-</html>
+
+  <p align="center"><strong>203. CUERPO DE MI CUERPO</strong></p>
+  <p>Antes    de    encontrarte    te    am&eacute;,<br />
+    sin mirarte ya te conoc&iacute;a. Te he <br />
+    buscado noche y d&iacute;a y en mi <br />
+    cuerpo te sent&iacute;a. Y al tenerte <br />
+    frente a m&iacute; me llenaste de tu <br />
+  amor.</p>
+  <p><strong>Cuerpo    de    mi    cuerpo,    carne<br />
+    de    mi    carne,    piel    de    mi    piel,<br />
+    amor de mi amor.</strong></p>
+  <p>Me has robado el coraz&oacute;n, me <br />
+    has llamado solo para ti, soy tus <br />
+    ojos, soy tu piel. Ya no vivo en <br />
+    m&iacute; ser. Y en mi rostro has reflejado <br />
+    la inocencia de tu amor.</p>
+  <p>Nuestro   mundo   se llenar&aacute;   de<br />
+    tu  vientre  renacer&aacute; con  sudores<br />
+    en la frente sembraremos nuestra <br />
+    tierra, formaremos nueva carne y <br />
+    comeremos nuestro pan.</p>
+  <p>&nbsp;</p>

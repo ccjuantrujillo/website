@@ -41,12 +41,12 @@ include_once "menu.php";
 ?>
 <div class="container">
 	<div class="row">
-		<div class="col"></div>
-		<div class="col text-center">
+		<div class="col-2"></div>
+		<div class="col-8 text-center">
 			<strong><?php echo strtoupper($titulomisa);?></strong><br>
 			<strong><?php echo convierteFecha($fecha);?></strong>
 		</div>
-		<div class="col text-right align-self-center">
+		<div class="col-2 text-right align-self-center">
 			<!--img src="img/word_icon.png" alt="Exportar Word" /-->
 			<!--img src="img/ppt_icon.jpg" alt="Exportar PPT" /-->
 			<a href="misa_modelo_pdf.php?idmisa=<?php echo $idmisa;?>" target="_blank"><img src="img/pdf_icon.png" alt="Exportar PDF"/></a>
