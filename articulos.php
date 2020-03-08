@@ -2,7 +2,8 @@
 	<h5 class="card-header">Articulos recientes </h5>
 	<div class="card-body">
 	  <ul class="list-unstyle mb-0">
-		<li><a href="i_domingo_cuaresma.php">I Domingo de cuaresma</a></li>     	  
+		<li><a href="ii_domingo_cuaresma_2020.php">II Domingo de cuaresma</a></li>  	  
+		<li><a href="i_domingo_cuaresma_2020.php">I Domingo de cuaresma</a></li>     	  
 		<li><a href="v_domingo_tiempo_ordinario_2020.php">V Domingo de tiempo ordinario </a></li>                    
 		<li><a href="xxvi_domingo_tiempo_ordinario.php">XXVI Domingo de tiempo ordinario </a></li>                              
 	    <li><a href="xxv_domingo_tiempo_ordinario.php">XXV Domingo de tiempo ordinario </a></li>

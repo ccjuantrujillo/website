@@ -9,7 +9,7 @@ if(!isset($buscarCancion))    $buscarCancion = false;
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item <?php echo $estadoComunidad;?>">
-				<a class="nav-link" href="http://www.comunidadsantarosa.org/comunidad.php">Comunidad</a>
+				<a class="nav-link" href="http://www.comunidadsantarosa.org/comunidad.php">Lecturas</a>
 			</li>			
 			<li class="nav-item <?php echo $estadoCancionero;?>">
 				<a class="nav-link" href="http://www.comunidadsantarosa.org/cancionero/indice_momentos.php">Cancionero</a>
@@ -22,10 +22,6 @@ if(!isset($buscarCancion))    $buscarCancion = false;
 	<?php
 	if($buscarCancion){
 	?>
-		<form class="form-inline my-2 my-lg-0">
-		  <input class="form-control mr-sm-2" type="search" placeholder="Buscar cancion" style="width:150px;">
-		  <!--button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button-->
-		</form> 	
 	<?php
 	}
 	?>

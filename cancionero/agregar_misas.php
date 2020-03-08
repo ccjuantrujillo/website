@@ -102,8 +102,9 @@ if(isset($_POST["datepicker"]) && isset($_POST["descripcion"])){
 		$( "#datepicker" ).datepicker("option", "dateFormat","dd/mm/yy");
 		
 		$("a").click(function(){
-			id = $(this).attr("id");
-			nombre   = getCancion(id);
+			var id     = $(this).attr("id");
+			var nombre = getCancion(id);
+			var fila   = "";
 			$.ajax({
 				type:"POST",
 				url:"listar_canciones.php",
@@ -115,15 +116,25 @@ if(isset($_POST["datepicker"]) && isset($_POST["descripcion"])){
 					$.each(resultado,function(index,value){
 						option+= "<option value='"+value.idcancion+"'>"+value.titulo+"</option>";
 					});
-					selector = "<select class='form-control' name='"+nombre+"'>"+option+"</select>";
-					$( ".col-sm-5:eq("+id+")" ).append(selector);
-					caja = "<input type='text' name='txt"+nombre+"' class='form-control'>";
-					//$( ".col-sm-5:eq("+id+")" ).append(caja);					
+					selector  = "<select class='form-control form-control-sm' name='"+nombre+"'>"+option+"</select>";
+					cajatexto = "<input type='text' name='txt"+nombre+"' class='form-control form-control-sm clasecaja'>";					
+					//Construimos cada fila
+					fila += "<div class='col-sm-7'>"+selector+"</div>";
+					fila += "<div class='col-sm-4'>"+cajatexto+"</div>";
+					$( ".col-sm-10:eq("+id+")" ).append(fila);			
 				},
 				error:function(){
 					alert('Se producjo un error');
 				}
 			});
+			
+		    $(".clasecaja").on("keypress",function(e) {
+				alert("hola");
+			});	
+			
+			$(".btn-primary").click(function(){
+				$("#frmMisa").submit();
+			});		
 		});
 		
 		function getCancion(pos){
@@ -160,71 +171,73 @@ if(isset($_POST["datepicker"]) && isset($_POST["descripcion"])){
 </head>
 <body>
 	<?php
+	$estadoComunidad = "";
+	$estadoCancionero = "";
+	$estadoMisas = "active";	
 	include_once "menu.php";
 	?>
 	<div class="container">
-	<form method="post">
+	<form method="post" id="frmMisa">
 		<div class="form-group"></div>
 		<div class="form-group row">
 			<label class="col-sm-2">Fecha</label>
-			<div class="col-sm-3">
-				<input type="text" name="datepicker" id="datepicker" class="form-control" />			
+			<div class="col-sm-2">
+				<input type="text" name="datepicker" id="datepicker" class="form-control form-control-sm" />			
 			</div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">Descripcion</label>
-			<div class="col-sm-5">
-				<input type="text" name="descripcion" id="descripcion" class="form-control" />
+			<div class="col-sm-10">
+				<input type="text" name="descripcion" id="descripcion" class="form-control form-control-sm" />
 			</div>		
 		</div>	
 		<hr>
 		<div class="form-group row">
 			<label class="col-sm-2">ENTRADA: <a href='#' id="1"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10 row"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">PERDON: <a href='#' id="2"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10 row"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">GLORIA: <a href='#' id="3"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10 row"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">ALELUYA: <a href='#' id="4"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">OFERTORIO: <a href='#' id="5"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">SANTO: <a href='#' id="6"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>
 		<div class="form-group row">
-			<label class="col-sm-2">PADRE NUESTRO: <a href='#' id="7"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<label class="col-sm-2">P.NUESTRO: <a href='#' id="7"><b><font color="#FF0000">(+)</font></b></a></label>
+			<div class="col-sm-10"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">PAZ: <a href='#' id="8"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">CORDERO: <a href='#' id="9"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>
 		<div class="form-group row">
 			<label class="col-sm-2">COMUNION: <a href='#' id="10"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>				
 		<div class="form-group row">
 			<label class="col-sm-2">SALIDA: <a href='#' id="11"><b><font color="#FF0000">(+)</font></b></a></label>
-			<div class="col-sm-5"></div>
+			<div class="col-sm-10"></div>
 		</div>						
-		
 		<div style="text-align:">
-			<input type="submit" class="btn btn-primary" value="Guardar"/>
+			<input type="button" class="btn btn-primary" value="Guardar"/>
 			<input type="button" class="btn btn-cancel" value="Cancelar" onclick="location.href='indice_momentos.php'"/>
 			<input type="hidden" value="grabar" name="action" />
 		</div>

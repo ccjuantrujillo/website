@@ -1,7 +1,12 @@
 <?php
 include_once "clases/conexion.php";
+$busqueda = "";
+$valor = "";
+if(isset($_REQUEST["busqueda"]))   $busqueda = "where c.titulo like '%".$_REQUEST["busqueda"]."%'";
+if(isset($_REQUEST["busqueda"]))   $valor = $_REQUEST["busqueda"];
 $query = "select cat.idcategoria,cat.descripcion,c.* 
 	from canciones as c inner join categoria as cat on (cat.idcategoria=c.idcategoria)
+	".$busqueda."
 	order by cat.idcategoria,c.orden
 	";
 $rs = mysqli_query($link,$query);
@@ -10,6 +15,19 @@ $rs = mysqli_query($link,$query);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php include_once "header.php";?>
+	<script>
+	$(document).ready(function(){
+		val = $('#busqueda').val();
+		$('#busqueda').focus().val("").val(val);
+		
+		/*$("#busqueda").keyup(function(){
+			var tamano = $("#busqueda").val().length;
+			if(tamano>3){
+				$("#frmBusqueda").submit();
+			}
+		}); */
+	});
+	</script>
 </head>
 <body>
 	<?php 
@@ -20,11 +38,11 @@ $rs = mysqli_query($link,$query);
 	include_once "menu.php";
 	?>
 	<div class="container">
-<h4 class="text-center">CANCIONERO MISIONERO</h4> 
-<h6 class="text-center">
-<a href="indice_momentos.php">Indice Momentos</a> || <a href="indice.php">Indice Alfabetico</a>
-</h6>
-<div style="float:right;margin-top:-30px;"><a href="agregar_canciones.php"><img src="img/agregar.png" width="24" height="24" /></a></div>
+	<form method="post" id="frmBusqueda">
+	  <input class="form-control mr-sm-2" type="search" placeholder="Buscar cancion" id="busqueda" name="busqueda" value="<?php echo $valor;?>">
+	  <!--button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button-->
+	</form> 	
+<div style="float:right;margin-top:0px;"><a href="agregar_canciones.php"><img src="img/agregar.png" width="24" height="24" /></a></div>
 		  <?php
 			$categoria_ini = "";
 			while($row = mysqli_fetch_array($rs)){
@@ -35,7 +53,7 @@ $rs = mysqli_query($link,$query);
 				$titulo = $row["titulo"];
 				//Mostrar el listado
 				if($categoria_ini!=$categoria){
-					echo "<h6 class='text-left'>".strtoupper($categoria)."</h6>";
+					echo "<h6 class='text-left'><strong>".strtoupper($categoria)."</strong></h6>";
 					$categoria_ini = $categoria;
 				}
 				//echo "<a href='".$url."'>".$orden.". ".$titulo."</a><br>";

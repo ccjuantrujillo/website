@@ -1,5 +1,5 @@
 
-  <p align="center"><strong>364. OH CORDERO DE DIOS </strong></p>
+  <p align="center"><strong>364. OH CORDERO DE DIOS EGMER </strong></p>
   <p>Intro charango circuito: C-F-A-D <br />
     Oh cordero de Dios, <br />
     Dm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<br />

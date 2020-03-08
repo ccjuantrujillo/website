@@ -25,8 +25,8 @@ $rs = mysqli_query($link,$query);
 	include_once "menu.php";
 	?>
 	<div class="container">
-		<h4 class="text-center">MISAS Y LITURGIAS</h4>  
-		<div style="float:right;margin-top:-30px;"><a href="agregar_misas.php"><img src="img/agregar.png" width="24" height="24" /></a></div>
+		<div class="text-center"><H5><STRONG>MISAS Y LITURGIAS</STRONG></H5></div>
+		<div style="float:right;margin-top:0px;"><a href="agregar_misas.php"><img src="img/agregar.png" width="24" height="24" /></a></div>
 		  <?php
 		    $ano_ant = 0;
 			while($row = mysqli_fetch_array($rs)){
@@ -36,7 +36,7 @@ $rs = mysqli_query($link,$query);
 				$descripcion = $row["descripcion"];		
 				$ano   = explode("-",$fecha)[0];
 				if($ano!=$ano_ant){
-					echo "<h5>".$ano."</h5>";
+					echo "<h5><strong>".$ano."</strong></h5>";
 				}
 				if($ano>=2020 && $fecha!='2020-01-01'){
 					$url = "misa_modelo.php?id=".$idmisa;
