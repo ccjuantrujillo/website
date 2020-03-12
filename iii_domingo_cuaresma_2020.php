@@ -14,7 +14,7 @@
 
         <!-- Post Content Column -->
         <div class="col-lg-8">
-          <h4 class="mt-4"><strong>III DOMINGO DE CUARESMA </strong></h4>
+          <h4 class="mt-4"><strong>IIIf DOMINGO DE CUARESMA </strong></h4>
           <h4 class="mt-1">En Esp&iacute;ritu y en verdad </h4>		  
           <p>Publicado el 15 Marzo, 2020 </p>
 
