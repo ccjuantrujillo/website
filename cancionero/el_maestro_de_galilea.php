@@ -1,5 +1,5 @@
 
-  <p align="center"><strong>EL MAESTRO DE GALILEA </strong></p>
+  <p align="center"><strong>372. EL MAESTRO DE GALILEA </strong></p>
   <p>El Maestro de Galilea.<br />
     El Maestro de Galilea,<br />
   Est&aacute; pasando por aqu&iacute;,</p>

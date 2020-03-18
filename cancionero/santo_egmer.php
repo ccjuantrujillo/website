@@ -1,5 +1,5 @@
 
-  <p align="center"><strong>SANTO DIALOGADO </strong></p>
+  <p align="center"><strong>371. SANTO DIALOGADO </strong></p>
   <p>Santo, santo, santo es el Se&ntilde;or, <br />
   Dios del universo.<br />
     <br />

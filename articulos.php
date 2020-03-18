@@ -1,14 +1,17 @@
-  <div class="card my-4">
-	<h5 class="card-header">Articulos recientes </h5>
-	<div class="card-body">
-	  <ul class="list-unstyle mb-0">
-		<li><a href="ii_domingo_cuaresma_2020.php">II Domingo de cuaresma</a></li>  	  
-		<li><a href="i_domingo_cuaresma_2020.php">I Domingo de cuaresma</a></li>     	  
-		<li><a href="v_domingo_tiempo_ordinario_2020.php">V Domingo de tiempo ordinario </a></li>                    
-		<li><a href="xxvi_domingo_tiempo_ordinario.php">XXVI Domingo de tiempo ordinario </a></li>                              
-	    <li><a href="xxv_domingo_tiempo_ordinario.php">XXV Domingo de tiempo ordinario </a></li>
-	    <li><a href="xxiv_domingo_tiempo_ordinario.php">XXIV Domingo de tiempo ordinario </a></li>
-	    <li><a href="xxiii_domingo_tiempo_ordinario.php">XXIII Domingo de tiempo ordinario </a></li>
-	  </ul>
-  </div>
-  </div>
+<?php
+include_once "cancionero/clases/conexion.php";
+$query = "select * from misas order by fecha desc limit 5";
+$rs = mysqli_query($link,$query);
+$fila = "";
+while($row = mysqli_fetch_array($rs)){
+	$fila.="<li><a href='cancionero/misa_modelo.php?id=".$row['idmisa']."'>".$row['descripcion']."</a></li>";
+}
+?>
+<div class="card my-4">
+<h5 class="card-header">Misas recientes </h5>
+<div class="card-body">
+  <ul class="list-unstyle mb-0">
+	<?php echo $fila;?>
+  </ul>
+</div>
+</div>
