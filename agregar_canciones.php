@@ -12,11 +12,11 @@ if(isset($_POST["action"]) && $_POST["action"]=="grabar"){
 	$orden = $_POST["orden"];
 	if($nombre!="" && $orden!=""){
 		$nombre = str_replace(",","",$nombre);//Elimino comas
-		$fichero_nuevo = "cancionero/".strtolower(str_replace(" ","_",$nombre)).".php";
+		$fichero_nuevo = strtolower(str_replace(" ","_",$nombre)).".php";
 		//Verificamos si el nombre esta repetido
 		
 		//Creamos el fichero	
-		$copia = copy("cancionero/cancion_modelo.php",$fichero_nuevo);
+		$copia = copy("cancionero/cancion_modelo.php","cancionero/".$fichero_nuevo);
 		//Obtenemos el maximo orden
 		$query = "select max(orden) from canciones";
 		$rs = mysqli_query($link,$query);
