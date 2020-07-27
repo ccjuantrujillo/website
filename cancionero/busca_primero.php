@@ -14,7 +14,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;D</p>
 <p><strong>Aleluya, alelu, aleluya, <br />
 aleluya, aleluya! (2v).</strong></p>
-
 <div class="col col-lg-auto col-md-auto col-sm-auto">
 	<p align="left">
 		<img src="img/acordes/Bm7_red.png" width="79" height="100" class="img-fluid"/>
@@ -23,3 +22,6 @@ aleluya, aleluya! (2v).</strong></p>
 		<img src="img/acordes/Fm7_red.png" width="59" height="100" class="img-fluid"/>
 	</p>
 </div>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/LSrv9WftEYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>	  

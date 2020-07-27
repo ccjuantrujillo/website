@@ -32,10 +32,10 @@
     ascender. Pero la misericordia, <br />
     de nuestro Padre Dios, viene <br />
     en nuestro auxilio, y nos <br />
-    levanta, con su Amor.</p>
-  <p><br />
-  </p>
-  <p>&nbsp;</p>
+levanta, con su Amor.</p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dEtEoq3njTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>	  
 <p><br />
 </p>
 

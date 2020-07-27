@@ -52,11 +52,9 @@
 	<p>Porque la fe se alimenta y se predica<br />
 	  orando y construyendo la justicia<br />
 	  aunque haya quienes escuchan s&oacute;lo su verdad<br />
-	  hay un llamado hacia todos por igual.</p>
-	<p>https://www.youtube.com/watch?time_continue=4&amp;v=KDQTmRdfdI8</p>
-	
-<div class="embed-responsive embed-responsive-16by9">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/KDQTmRdfdI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+hay un llamado hacia todos por igual.</p>
+	<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wLzsvlJ5Yxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>	
 	
 

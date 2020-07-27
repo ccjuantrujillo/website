@@ -1,4 +1,4 @@
-<p align="center"><strong>372. OH CORDERO SE&Ntilde;OR CESAR </strong></p>
+<p align="center"><strong>373. OH CORDERO SE&Ntilde;OR CESAR </strong></p>
   <p>Oh cordero de Dios<br />
     que quitas, el pecado<br />
     del mundo, ten piedad <br />

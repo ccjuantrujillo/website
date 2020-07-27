@@ -1,5 +1,5 @@
 
-  <p align="center"><strong>140. LA PAZ ESTECON NOSOTROS</strong></p>
+  <p align="center"><strong>140. LA PAZ ESTE CON NOSOTROS</strong></p>
   <p>La paz est&eacute; con nosotros (3v). <br />
     Que con nosotros siempre, siempre <br />
   est&eacute; la paz.</p>
