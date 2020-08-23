@@ -15,3 +15,12 @@ while($row = mysqli_fetch_array($rs)){
   </ul>
 </div>
 </div>
+
+<div class="card my-4">
+<h5 class="card-header">Oraciones</h5>
+<div class="card-body">
+  <ul class="list-unstyle mb-0">
+	<li><a href="santo_rosario.php">Santo Rosario</a></li>
+  </ul>
+</div>
+</div>

@@ -12,4 +12,6 @@
   <p>Haz que cada cristiano, bajo tu <br />
     inspiraci&oacute;n, sea testigo de Cristo, <br />
   con la palabra y la acci&oacute;n.</p>
-  <p>&nbsp;</p>
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/BmdV_0Px2m8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>	

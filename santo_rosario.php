@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <?php include_once "cancionero/header.php";?>
+	  <?php include_once "header.php";?>
   </head>
   <body class="fondo">
     <!-- Navigation -->
-	<?php include_once("cancionero/menu.php");?>
+	<?php include_once("menu.php");?>
 
     <!-- Page Content -->
     <div class="container">
