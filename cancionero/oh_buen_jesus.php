@@ -1,10 +1,15 @@
 
   <p align="center"><strong>182. OH BUEN JESUS</strong></p>
   <p>Oh buen Jes&uacute;s, yo creo firmemente<br />
+    Am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E<br />
     que por   mi bien, est&aacute;s   en el<br />
+    Am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dm<br />
     altar, que das   tu cuerpo, y<br />
+    &nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;Dm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<br />
     sangre juntamente / Al alma fiel <br />
-  en celestial manjar (2v).</p>
+    E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<br />
+en celestial manjar (2v).<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Am</p>
   <p>Indigno soy, confieso avergonzado <br />
     de recibir, la Santa Comuni&oacute;n. <br />
     Jes&uacute;s que ves, mi nada y mi <br />

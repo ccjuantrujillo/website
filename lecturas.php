@@ -113,8 +113,8 @@ else{
 			<input type="hidden" name="sunday" id="sunday" value="<?php echo $sunday;?>"/>		  
 			<div class="col-lg-10 align-self-baseline"><h4 class="mt-4"><strong><?php echo strtoupper($titulo);?></strong></h4></div>
 			<div class="col-lg-2 align-self-center">
-				<a href="lecturas.php?dia=<?php echo ($sunday-1);?>"><<<</a>
-				<a href="lecturas.php?dia=<?php echo ($sunday+1);?>">>>></a>
+				<a href="lecturas.php?dia=<?php echo date("Ymd",strtotime($sunday."- 1 days"));?>"><<<</a>
+				<a href="lecturas.php?dia=<?php echo date("Ymd",strtotime($sunday."+ 1 days"));?>">>>></a>
 		     </div>
 		  </div>
           <h4 class="mt-1"><?php echo $tituloComentario;?></h4>		  
