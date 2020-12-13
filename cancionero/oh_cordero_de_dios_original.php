@@ -10,8 +10,7 @@
   <p>Oh...</p>
   <p>Cirdero de Dios, t&uacute; que quitas el pecado <br />
     del mundo, t&uacute; que quitas el pecado del <br />
-    mundo, danos la paz.</p>
-  <p>https://www.youtube.com/watch?v=i3bpJuP31FA</p>
-<div class="embed-responsive embed-responsive-16by9">
+mundo, danos la paz.</p>
+  <div class="embed-responsive embed-responsive-16by9">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/i3bpJuP31FA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
