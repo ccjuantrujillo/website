@@ -4,7 +4,7 @@ $query = "select * from misas order by fecha desc limit 5";
 $rs = mysqli_query($link,$query);
 $fila = "";
 while($row = mysqli_fetch_array($rs)){
-	$fila.="<li><a href='cancionero/misa_modelo.php?id=".$row['idmisa']."'>".$row['descripcion']."</a></li>";
+	$fila.="<li><a href='misa_modelo.php?id=".$row['idmisa']."'>".$row['descripcion']."</a></li>";
 }
 ?>
 <div class="card my-4">
