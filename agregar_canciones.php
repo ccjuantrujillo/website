@@ -1,11 +1,12 @@
 <?php
 include_once "cancionero/clases/conexion.php";
-$query = "select * from categoria";
+$query = "select * from categoria where COMPP_Codigo=3";
 $rs = mysqli_query($link,$query);
 $selCategoria = "";
 while($row=mysqli_fetch_array($rs)){
-	$selCategoria .= "<option value='".$row['idcategoria']."'>".$row['descripcion']."</option>";
+	$selCategoria .= "<option value='".$row['CATEGP_Codigo']."'>".$row['CATEGC_Descripcion']."</option>";
 }
+
 if(isset($_POST["action"]) && $_POST["action"]=="grabar"){
 	$categoria = $_POST["categoria"];
 	$nombre = $_POST["nombre"];
@@ -17,15 +18,24 @@ if(isset($_POST["action"]) && $_POST["action"]=="grabar"){
 		
 		//Creamos el fichero	
 		$copia = copy("cancionero/cancion_modelo.php","cancionero/".$fichero_nuevo);
+		
 		//Obtenemos el maximo orden
-		$query = "select max(orden) from canciones";
+		$query = "select max(CATEGCANCC_Orden) from categoriacancion where COMPP_Codigo=3";
 		$rs = mysqli_query($link,$query);
 		$row=mysqli_fetch_array($rs);
 		$maximo = $row[0];
-		//Insertamose en la base de datos
-		$query = "insert into canciones (idcategoria,orden,titulo,url) values ('".$categoria."','".$orden."','".$nombre."','".$fichero_nuevo."')";
-		$rs = mysqli_query($link,$query);
-		if($copia && $rs){
+		
+		//Insert cancion
+		$query = "insert into cancion (CANCC_Titulo,CANCC_Url) values ('".$nombre."','".$fichero_nuevo."')";
+		$rs1 = mysqli_query($link,$query);
+		$cancion = mysqli_insert_id($link);
+		
+		//Insert categoriacancion
+		$query = "insert into categoriacancion (COMPP_Codigo,CANCP_Codigo,CATEGP_Codigo,CATEGCANCC_Orden) 
+			values (3,'".$cancion."','".$categoria."','".$orden."')";
+		$rs2 = mysqli_query($link,$query);
+		
+		if($copia && $rs1 && $rs2){
 			//echo "Se creo exitosamente";
 			header("location:indice_momentos.php");
 		}

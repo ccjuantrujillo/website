@@ -1,10 +1,15 @@
 <?php
 include_once "cancionero/clases/conexion.php";
 $orden = $_REQUEST["orden"];
-$query = "select cat.idcategoria,cat.descripcion,c.* 
-	from canciones as c inner join categoria as cat on (cat.idcategoria=c.idcategoria)
-	where c.orden='".$orden."'
-	";
+$query = "
+		SELECT cat.CATEGP_Codigo,
+			   cat.CATEGC_Descripcion,
+			   c.*,cc.* 
+		FROM cancion AS c
+		INNER JOIN categoriacancion cc ON (cc.CANCP_Codigo=c.CANCP_Codigo AND cc.COMPP_Codigo=3)
+		INNER JOIN categoria AS cat ON (cat.CATEGP_Codigo=cc.CATEGP_Codigo)	
+		where cc.CATEGCANCC_Orden='".$orden."'
+		";
 $rs = mysqli_query($link,$query);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -26,7 +31,7 @@ include_once "menu.php";
 	<div style="float:right;text-align:right;vertical-align:top;font:18px arial, sans-serif;"><a href="#" id="sgte">>>></a></div>
 	<?php
 	$row = mysqli_fetch_array($rs);
-	$url = 	"cancionero/".$row["url"];
+	$url = 	"cancionero/".$row["CANCC_Url"];
 	include_once $url;
 	?>
 </div>

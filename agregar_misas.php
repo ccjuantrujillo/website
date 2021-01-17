@@ -1,93 +1,96 @@
 <?php
 include_once "cancionero/clases/conexion.php";
+
 if(isset($_POST["datepicker"]) && isset($_POST["descripcion"])){
 	$fecha = $_POST["datepicker"];
 	$descripcion = $_POST["descripcion"];
 	$url = str_replace(",","",$descripcion);//Elimino comas
 	$url = strtolower(str_replace(" ","_",$url)).".php";
+	
 	//Grabamos la misa
-	$cadena = "insert into misas (descripcion,url,fecha) values ('".$descripcion."','".$url."','".ReconvierteFecha($fecha)."')";
+	$cadena = "insert into misa (MISAC_Descripcion,MISAC_Url,MISAC_Fecha) values ('".$descripcion."','".$url."','".ReconvierteFecha($fecha)."')";
 	$rs = mysqli_query($link,$cadena);
 	$idmisa = mysqli_insert_id($link);
-	//Guradamos las canciones
+	
+	//Guardamos las canciones
 	if(isset($_POST["entrada"])){
 		$entrada = $_POST["entrada"];
 		foreach($entrada as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',1)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',1)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
 	if(isset($_POST["perdon"])){
 		$perdon = $_POST["perdon"];
 		foreach($perdon as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',2)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',2)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
 	if(isset($_POST["gloria"])){
 		$gloria = $_POST["gloria"];
 		foreach($gloria as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',3)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',3)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
 	if(isset($_POST["aleluya"])){
 		$aleluya = $_POST["aleluya"];
 		foreach($aleluya as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',5)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',5)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
 	if(isset($_POST["ofertorio"])){
 		$ofertorio = $_POST["ofertorio"];
 		foreach($ofertorio as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',6)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',6)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
 	if(isset($_POST["santo"])){
 		$santo = $_POST["santo"];
 		foreach($santo as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',7)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',7)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
 	if(isset($_POST["padre"])){
 		$padre = $_POST["padre"];
 		foreach($padre as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',8)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',8)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}	
 	if(isset($_POST["paz"])){
 		$paz = $_POST["paz"];
 		foreach($paz as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',9)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',9)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}	
 	if(isset($_POST["cordero"])){
 		$cordero = $_POST["cordero"];
 		foreach($cordero as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',10)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',10)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}	
 	if(isset($_POST["comunion"])){
 		$comunion = $_POST["comunion"];
 		foreach($comunion as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',11)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',11)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}	
 	if(isset($_POST["salida"])){
 		$salida = $_POST["salida"];
 		foreach($salida as $value){
-			$cadena = "insert into misacanciones (idmisa,idcancion,idcategoria) values ('".$idmisa."','".$value."',13)";
+			$cadena = "insert into misacancion (MISAP_Codigo,CANCP_Codigo,CATEGP_Codigo) values ('".$idmisa."','".$value."',13)";
 			$rs = mysqli_query($link,$cadena);
 		}
 	}
-	header("location:misas.php");							
+	header("location:misas.php");		
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

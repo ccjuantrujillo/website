@@ -1,29 +1,38 @@
 <?php
 include_once "cancionero/clases/conexion.php";
 $idmisa = $_GET["id"];
-$query = "select * from misas where idmisa='".$idmisa."'";
+$query = "select * from misa where MISAP_Codigo='".$idmisa."'";
 $rs = mysqli_query($link,$query);
 $row = mysqli_fetch_array($rs);
-$titulomisa = $row["descripcion"];
-$fecha = $row["fecha"];
+$titulomisa = $row["MISAC_Descripcion"];
+$fecha = $row["MISAC_Fecha"];
+
 //Canciones
-$query = "select a.idcategoria,a.idcancion,a.idcategoria,
-	      b.titulo,b.url,b.orden,c.descripcion,c.descripcioncorta
-		  from misacanciones as a 
-		  inner join canciones as b on (b.idcancion=a.idcancion)
-		  inner join categoria as c on (c.idcategoria=a.idcategoria)
-		  where a.idmisa='".$idmisa."'		  
-		  order by a.idcategoria
+$query = "select a.CATEGP_Codigo, 
+				 a.CANCP_Codigo, 
+				 a.CATEGP_Codigo, 
+				 b.CANCC_Titulo, 
+				 b.CANCC_Url, 
+				 cc.CATEGCANCC_Orden, 
+				 c.CATEGC_Descripcion, 
+				 c.CATEGC_DescripcionCorta 
+		  from misacancion as a 
+		  inner join cancion as b on (b.CANCP_Codigo=a.CANCP_Codigo)
+		  inner join categoriacancion as cc on (cc.CANCP_Codigo = b.CANCP_Codigo and cc.COMPP_Codigo = 3)
+		  inner join categoria as c on (c.CATEGP_Codigo=a.CATEGP_Codigo)
+		  where a.MISAP_Codigo='".$idmisa."'		  
+		  order by a.CATEGP_Codigo
 		  ";
+
 $fila = "";
 $rs = mysqli_query($link,$query);
 $descripcion_ant = "";
 while($row=mysqli_fetch_array($rs)){
-	$descripcion = strtoupper($row['descripcioncorta']);
-	if($descripcion!= $descripcion_ant) $fila.="<h6>".strtoupper($row['descripcioncorta']).":</h6>";
+	$descripcion = strtoupper($row['CATEGC_DescripcionCorta']);
+	if($descripcion!= $descripcion_ant) $fila.="<h6>".strtoupper($row['CATEGC_DescripcionCorta']).":</h6>";
 	$descripcion_ant = $descripcion;
 	$fila.="<div class='row'>";
-	$fila.="<div class='col-lg col-sm col'><a href='canciones.php?orden=".$row['orden']."'>".strtoupper($row['titulo'])." (".$row['orden'].") </a></div>";
+	$fila.="<div class='col-lg col-sm col'><a href='canciones.php?orden=".$row['CATEGCANCC_Orden']."'>".strtoupper($row['CANCC_Titulo'])." (".$row['CATEGCANCC_Orden'].") </a></div>";
 	$fila.="</div>";
 }		  
 ?>

@@ -1,7 +1,7 @@
 <?php
 include_once "cancionero/clases/conexion.php";
 $hoy = date("Y-m-d",time());
-$query = "select * from misas where fecha='".$hoy."'";
+$query = "select * from misa where MISAC_Fecha='".$hoy."'";
 $rs = mysqli_query($link,$query);
 /*if(mysqli_num_rows($rs)>0){
 	$row = mysqli_fetch_array($rs);
@@ -9,7 +9,7 @@ $rs = mysqli_query($link,$query);
 	header("location:".$url);
 }
 else{*/
-$query = "select * from misas order by fecha desc";
+$query = "select * from misa order by MISAC_Fecha desc";
 $rs = mysqli_query($link,$query);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -30,10 +30,10 @@ $rs = mysqli_query($link,$query);
 		  <?php
 		    $ano_ant = 0;
 			while($row = mysqli_fetch_array($rs)){
-				$idmisa = $row["idmisa"];
-				$fecha = $row["fecha"];
+				$idmisa = $row["MISAP_Codigo"];
+				$fecha = $row["MISAC_Fecha"];
 				$url = "misa_modelo.php?id=".$idmisa;				
-				$descripcion = $row["descripcion"];		
+				$descripcion = $row["MISAC_Descripcion"];		
 				$ano   = explode("-",$fecha)[0];
 				if($ano!=$ano_ant){
 					echo "<h5><strong>".$ano."</strong></h5>";

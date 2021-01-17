@@ -24,3 +24,12 @@ while($row = mysqli_fetch_array($rs)){
   </ul>
 </div>
 </div>
+
+<div class="card my-4">
+<h5 class="card-header">Formacion</h5>
+<div class="card-body">
+  <ul class="list-unstyle mb-0">
+	<li><a href="fundamentos_fe.php">Fundamentos de la fe</a></li>
+  </ul>
+</div>
+</div>

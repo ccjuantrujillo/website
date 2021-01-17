@@ -4,10 +4,15 @@ $busqueda = "";
 $valor = "";
 if(isset($_REQUEST["busqueda"]))   $busqueda = "where c.titulo like '%".$_REQUEST["busqueda"]."%'";
 if(isset($_REQUEST["busqueda"]))   $valor = $_REQUEST["busqueda"];
-$query = "select cat.idcategoria,cat.descripcion,c.* 
-	from canciones as c inner join categoria as cat on (cat.idcategoria=c.idcategoria)
-	".$busqueda."
-	order by cat.idcategoria,c.orden
+$query = "
+		SELECT cat.CATEGP_Codigo,
+			   cat.CATEGC_Descripcion,
+			   c.*,cc.* 
+		FROM cancion AS c
+		INNER JOIN categoriacancion cc ON (cc.CANCP_Codigo=c.CANCP_Codigo AND cc.COMPP_Codigo=3)
+		INNER JOIN categoria AS cat ON (cat.CATEGP_Codigo=cc.CATEGP_Codigo)
+		".$busqueda."
+		ORDER BY cat.CATEGP_Codigo,cc.CATEGCANCC_Orden
 	";
 $rs = mysqli_query($link,$query);
 ?>
@@ -46,11 +51,11 @@ $rs = mysqli_query($link,$query);
 		  <?php
 			$categoria_ini = "";
 			while($row = mysqli_fetch_array($rs)){
-				$id = $row["idcancion"];
-				$categoria = $row["descripcion"];
-				$orden = $row["orden"];
-				$url = $row["url"];
-				$titulo = $row["titulo"];
+				$id = $row["CANCP_Codigo"];
+				$categoria = $row["CATEGC_Descripcion"];
+				$orden = $row["CATEGCANCC_Orden"];
+				$url = $row["CANCC_Url"];
+				$titulo = $row["CANCC_Titulo"];
 				//Mostrar el listado
 				if($categoria_ini!=$categoria){
 					echo "<h6 class='text-left'><strong>".strtoupper($categoria)."</strong></h6>";

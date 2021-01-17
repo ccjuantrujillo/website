@@ -106,7 +106,7 @@ else{
 		 $textoComentario .= fgets($h);
 	   }		      	         
 	  ?>
-      <div class="row fondo">
+      <div class="row">
         <!-- Post Content Column -->
         <div class="col-lg-8">
 		  <div class="row">
