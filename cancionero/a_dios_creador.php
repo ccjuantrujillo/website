@@ -18,8 +18,7 @@ E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 <p>Y por las manos que nos abrazan, <br />
   por el cari&ntilde;o, por la bondad (2v). <br />
   Por la ternura y la exigencia, <br />
-  por el consuelo y la libertad (2v).</p>
-<p>https://www.youtube.com/watch?v=9dkJfxSUmQ4</p>
+por el consuelo y la libertad (2v).</p>
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/9dkJfxSUmQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>	
