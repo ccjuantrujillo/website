@@ -16,9 +16,12 @@
         <div class="col-lg-8">
           <h4 class="mt-4">FUNDAMENTOS DE LA FE</h4>
           <p class="mt-4">LECCION 1: <br>
-            LECCION 2: <br>
-          LECCION 3: PECADO Y ARREPENTIMIENTO<br>
-          LECCION 4: </p>
+LECCION 2: <br>
+<a href="fundamentos_fe.php">LECCION 3: PECADO Y ARREPENTIMIENTO</a><br>
+LECCION 4: <br>
+LECCION 5: <br>
+LECCION 6:<br>
+<a href="la_oracion.php">LECCION 7: LA ORACIÓN </a></p>
           <HR>
           <p><strong>LECCION 3          </strong></p>
           <p><strong>PECADO Y ARREPENTIMIENTO</strong></p>

@@ -6,7 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Categoria extends Model
 {
+    protected $primaryKey = 'CATEGP_Codigo';
+
     protected $table = "categoria";
     
-    protected $fillable = ["nombre"];
+    protected $fillable = ["CATEGC_Descripcion","CATEGC_DescripcionCorta"];
+
+    public $timestamps = false;    
+
 }

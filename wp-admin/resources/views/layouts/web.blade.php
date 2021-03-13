@@ -7,7 +7,7 @@
   <META name="description" CONTENT="Laboratorio N°6 de Electricidad FIEE-UNI">
   <META NAME="Distribution" CONTENT="Global">
   <META NAME="Robots" CONTENT="All">
-  <title>Laboratorio N°6 de Electricidad FIEE-UNI</title>
+  <title>Laborat de FIEE-UNI</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->

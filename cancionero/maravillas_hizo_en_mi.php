@@ -18,8 +18,9 @@
   <p>Por el Esp&iacute;ritu Santo <br />
     &eacute;l habita hoy en m&iacute;, <br />
     no cese nunca mi canto, <br />
-maravillas hizo en m&iacute;.
+maravillas hizo en m&iacute;.</p>
 <div class="embed-responsive embed-responsive-16by9">
-</p>
+
   <iframe width="560" height="315" src="https://www.youtube.com/embed/JNt4xdkL2AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
+</div>

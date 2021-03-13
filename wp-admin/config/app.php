@@ -175,8 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
-        /*datatables
-        Yajra\DataTables\DataTablesServiceProvider::class,*/
+        //datatables
+        Yajra\DataTables\DataTablesServiceProvider::class,
 
     ],
 

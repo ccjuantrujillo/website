@@ -114,7 +114,7 @@
           <img src="{{ asset('dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Edward Figueroa</a>
+          <a href="#" class="d-block">Martín Trujillo</a>
         </div>
       </div>
 
@@ -153,24 +153,7 @@
                   <p>Cot.Ensayos</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Cot.Calibraciones</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Cot.Capacitaciones</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Busqueda</p>
-                </a>
-              </li>                   
+
             </ul>
           </li>
 
@@ -242,7 +225,7 @@
 
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ asset('usuario') }}" class="nav-link">
+                <a href="{{ route('categoria.index') }}" class="nav-link">
                   <i class="far nav-icon"></i>
                   <p>Categorias</p>
                 </a>
