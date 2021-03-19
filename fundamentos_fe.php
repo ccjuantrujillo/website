@@ -1,3 +1,7 @@
+<?php  
+session_start();
+include_once "cancionero/clases/conexion.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

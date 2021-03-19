@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "cancionero/clases/conexion.php";
 $orden = $_REQUEST["orden"];
 $query = "
@@ -16,7 +17,6 @@ $rs = mysqli_query($link,$query);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <?php include_once "header.php";?>
-  <script src="js/site.js"></script>  
 </head>
 <body>
 <?php 

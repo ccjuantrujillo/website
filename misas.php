@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "cancionero/clases/conexion.php";
 $hoy = date("Y-m-d",time());
 $query = "select * from misa where MISAC_Fecha='".$hoy."'";

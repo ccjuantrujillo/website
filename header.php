@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="La Capilla Santa Rosa tuvo sus origenes en la época de los yanaconas del Ex Fundo Santa Rosa...">
-<meta name="keywords" content="capilla,iglesia,parroquia,santa,rosa">
+<meta name="keywords" content="capilla,iglesia,parroquia,santa,rosa,Comunidad Santa Rosa,Parroquia Nuestra Señora de las Misiones,coro,coro santa rosa,capilla santa rosa de pierola">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#f8d000">
 <meta name="twitter:card" content="summary">
@@ -13,3 +13,4 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/site.js"></script>  

@@ -1,4 +1,6 @@
 <?php
+session_start();
+include_once "cancionero/clases/conexion.php";
 //Obtenemos la fecha a buscar
 date_default_timezone_set('America/Lima');
 setlocale(LC_TIME, 'spanish');

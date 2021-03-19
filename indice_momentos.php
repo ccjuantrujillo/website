@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "cancionero/clases/conexion.php";
 $busqueda = "";
 $valor = "";
@@ -9,9 +10,10 @@ $query = "
 			   cat.CATEGC_Descripcion,
 			   c.*,cc.* 
 		FROM cancion AS c
-		INNER JOIN categoriacancion cc ON (cc.CANCP_Codigo=c.CANCP_Codigo AND cc.COMPP_Codigo=3)
+		INNER JOIN categoriacancion cc ON (cc.CANCP_Codigo=c.CANCP_Codigo AND cc.COMPP_Codigo='".$_SESSION['compania']."')
 		INNER JOIN categoria AS cat ON (cat.CATEGP_Codigo=cc.CATEGP_Codigo)
 		".$busqueda."
+    and cc.COMPP_Codigo = '".$_SESSION['compania']."'
 		ORDER BY cat.CATEGP_Codigo,cc.CATEGCANCC_Orden
 	";
 $rs = mysqli_query($link,$query);

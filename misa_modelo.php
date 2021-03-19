@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "cancionero/clases/conexion.php";
 $idmisa = $_GET["id"];
 $query = "select * from misa where MISAP_Codigo='".$idmisa."'";
