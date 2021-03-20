@@ -7,7 +7,7 @@
   <META name="description" CONTENT="Laboratorio N°6 de Electricidad FIEE-UNI">
   <META NAME="Distribution" CONTENT="Global">
   <META NAME="Robots" CONTENT="All">
-  <title>Laborat de FIEE-UNI</title>
+  <title>Cancionero Parroquial Misionero</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -26,7 +26,7 @@
 <body>
  <!--Navbar-->
   <nav class="navbar navbar-dark navbar-expand-lg scrolling-navbar nav-pills nav-fill" style="background-color: #800404">
-    <a class="navbar-brand" href="{{ asset('/') }}">Laboratorio de Electricidad</a>
+    <a class="navbar-brand" href="{{ asset('/') }}">Cancionero Parroquial Misionero</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

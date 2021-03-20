@@ -7,18 +7,15 @@ use Illuminate\Http\Request;
 class WebController extends Controller
 {
     public function index(){
-    	return redirect('ensayos');
+    	return view('web.lectura');
     }
 
-    public function ensayos(){
-    	return view('web.ensayos');
+    public function cancionero(){
+    	return view('web.cancionero');
     }
 
-    public function calibraciones(){
-    	return view('web.calibraciones');
+    public function misas(){
+    	return view('web.misas');
     }
 
-    public function capacitaciones(){
-    	return view('web.capacitaciones');
-    }    
 }

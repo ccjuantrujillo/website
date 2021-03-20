@@ -1,5 +1,6 @@
 <?php
 session_start();
+if(!isset($_SESSION['compania']))       $_SESSION['compania'] = 3;
 include_once "cancionero/clases/conexion.php";
 $orden = $_REQUEST["orden"];
 $query = "

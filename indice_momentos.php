@@ -1,5 +1,6 @@
 <?php
 session_start();
+if(!isset($_SESSION['compania']))       $_SESSION['compania'] = 3;
 include_once "cancionero/clases/conexion.php";
 $busqueda = "";
 $valor = "";
@@ -49,7 +50,7 @@ $rs = mysqli_query($link,$query);
       <input class="form-control mr-sm-2" type="search" placeholder="Buscar cancion" id="busqueda" name="busqueda" value="<?php echo $valor;?>">
       <!--button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button-->
     </form> 	
-    <div style="float:right;margin-top:0px;">
+        <div style="float:right;margin-top:0px;" class="collapse">
         <a href="agregar_canciones.php"><img src="img/agregar.png" width="24" height="24" /></a>
     </div>
         <?php

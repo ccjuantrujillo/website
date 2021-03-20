@@ -32,22 +32,22 @@ $lstCompania = mysqli_fetch_all($rsCompania,MYSQLI_ASSOC);
         </button>
         
         <!-- Right navbar links -->
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto collapse">
           <li class="nav-item">
             <form id="frmChangeSession">
-                    <select name="sessionCompany" id="sessionCompany" class="form-control form-control-sm"> 
-                      <?php 
-                      $compania = $_SESSION['compania'];
-                      foreach($lstCompania as $value){
-                        $selected = $value['COMPP_Codigo']==$compania?"selected='selected'":"";
-                        ?>
-                          <option value="<?php echo $value['COMPP_Codigo'];?>" <?php echo $selected;?>><?php echo $value['COMPC_Descripcion'];?></option>   
-                        <?php
-                      }
-                      ?>
-                    </select>
-                    <input type="hidden" name="caja_activa" id="caja_activa" value="<?php echo $caja_activa;?>"/>
-                  </form>
+              <select name="sessionCompany" id="sessionCompany" class="form-control form-control-sm"> 
+                <?php 
+                $compania = $_SESSION['compania'];
+                foreach($lstCompania as $value){
+                  $selected = $value['COMPP_Codigo']==$compania?"selected='selected'":"";
+                  ?>
+                    <option value="<?php echo $value['COMPP_Codigo'];?>" <?php echo $selected;?>><?php echo $value['COMPC_Descripcion'];?></option>   
+                  <?php
+                }
+                ?>
+              </select>
+              <input type="hidden" name="caja_activa" id="caja_activa" value="<?php echo $caja_activa;?>"/>
+            </form>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">

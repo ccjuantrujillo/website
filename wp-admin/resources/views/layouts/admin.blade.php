@@ -41,16 +41,20 @@
     </ul>
 
     <!-- SEARCH FORM -->
-    <!--form class="form-inline ml-3">
+    <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
-        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
+        <select name="sessionCompany" id="sessionCompany" class="form-control form-control-sm">
+          <option value="">::Seleccione::</option>
+          <?php 
+          $compania = App\Models\Compania::get();
+          foreach($compania as $value){
+            echo "<option value='".$value->COMPP_Codigo."'>".$value->COMPC_Descripcion."</option>";
+          }
+          ?>           
+        </select>
       </div>
-    </form-->
+    </form>
+
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
@@ -103,7 +107,7 @@
     <a href="{{ asset('home') }}" class="brand-link" style="background-color: rgba(128,4,4,0.7)">
       <img src="{{ asset('dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">ELECTRILAB</span>
+      <span class="brand-text font-weight-light">ADMINISTRADOR</span>
     </a>
 
     <!-- Sidebar -->
@@ -121,136 +125,43 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-			  <!-- Sidebar user panel (optional) -->
+
         <!-- INICIO DEL MENU  -->
 			  <!-- Sidebar Menu -->
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                COTIZACIONES
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ asset('solicitante') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Solicitantes</p>
-                </a>
-              </li>     
-              <li class="nav-item">
-                <a href="{{ asset('contacto') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Contactos</p>
-                </a>
-              </li>                     
-              <li class="nav-item">
-                <a href="{{ asset('cotizacion') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Cot.Ensayos</p>
-                </a>
-              </li>
+          <?php
+          $menu = App\Models\Menu::where("MENU_Codigo_Padre",0)->get();
+          foreach($menu as $value){
+            ?>
+              <li class="nav-item has-treeview">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-book"></i>
+                    <p>
+                      <?php echo strtoupper($value->MENU_Titulo);?>
+                      <i class="fas fa-angle-left right"></i>
+                    </p>
+                  </a>
 
-            </ul>
-          </li>
+                  <?php
+                  $menuhijo = App\Models\Menu::where("MENU_Codigo_Padre",$value->MENU_Codigo)->get();
+                  foreach($menuhijo as $valuehijo){
+                    ?>
+                      <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                          <a href="{{ asset($valuehijo->MENU_Url) }}" class="nav-link">
+                            <i class="far nav-icon"></i>
+                            <p><?php echo $valuehijo->MENU_Titulo;?></p>
+                          </a>
+                        </li>
+                      </ul>  
+                    <?php
+                  }
+                  ?>
 
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                CAPACITACION
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <!-- actualizado por marck, usando ELOQUENT -->
-                <a href="{{ route('curso.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Cursos</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('instructor.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Instructores</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('horario-curso.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Horario de Cursos</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('horario-instructor.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Horario de Instructores</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('instructor-curso.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Curso Instructor</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('descuento.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Descuento de Cursos</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                SISTEMA
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
+                </li>
+            <?php
+          }
+          ?>
 
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ asset('usuario') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Usuarios</p>
-                </a>
-              </li>
-            </ul>  
-
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ route('categoria.index') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Categorias</p>
-                </a>
-              </li>
-            </ul>              
-
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ asset('usuario') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Canciones</p>
-                </a>
-              </li>
-            </ul>  
-
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ asset('usuario') }}" class="nav-link">
-                  <i class="far nav-icon"></i>
-                  <p>Misas</p>
-                </a>
-              </li>
-            </ul>  
-
-          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -273,36 +184,25 @@
   </footer-->
 
 </div>
-<!-- ./wrapper -->
-<!-- REQUIRED SCRIPTS -->
 
-<!-- jQuery -->
+<!-- REQUIRED SCRIPTS -->
 <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
-<!-- Bootstrap -->
 <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<!-- overlayScrollbars -->
 <script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
-<!-- AdminLTE App -->
 <script src="{{asset('dist/js/adminlte.js')}}"></script>
-<!-- OPTIONAL SCRIPTS -->
 <script src="{{asset('dist/js/demo.js')}}"></script>
-<!-- PAGE PLUGINS -->
-<!-- jQuery Mapael -->
 <script src="{{asset('plugins/jquery-mousewheel/jquery.mousewheel.js')}}"></script>
 <script src="{{asset('plugins/raphael/raphael.min.js')}}"></script>
 <script src="{{asset('plugins/jquery-mapael/jquery.mapael.min.js')}}"></script>
 <script src="{{asset('plugins/jquery-mapael/maps/usa_states.min.js')}}"></script>
-<!-- ChartJS -->
 <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
-<!-- PAGE SCRIPTS -->
 <script src="{{asset('dist/js/pages/dashboard2.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
-<!-- Datatables JS-->
+
 <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script>
-<!-- bortones datatable-->
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.bootstrap4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
@@ -311,6 +211,8 @@
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.html5.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.print.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.colVis.min.js"></script>
+
 @yield('scripts')
+
 </body> 
 </html>
