@@ -2,7 +2,7 @@
 
 <div class="row">
 
-	<div class="col-lg-6">
+	<div class="col-lg-12">
 	
   <p>Tu lugar es a mi lado, hasta que lo <br />
   C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<br />
@@ -42,21 +42,7 @@ Am&aacute;ndote hasta mi final.</strong><br />
   <p>Hoy	te	prometo	amor	eterno<br />
   Am&aacute;ndote	hasta	mi	final.</p>
   </div>
-  
-	<div class="col-lg-6">
-	  <p>E-E-E-D-D-C-C-A-G / G-G-G-F<br />
-	  F-E-D / E-E-F-E-D-C<br />
-	  C-G / G-C-E-F-E-D-C-C</p>
-	  <p>G-E-E-E-D-D-C-C-A-G / G<br />
-      E-G-G-F-F-E-D / C-<mark>C</mark>-<mark>C-</mark>B<br />
-      A-A-G-G-D-C / C-E-E-F-E<br />
-      D-B-C</p>
-	  <p>E-A-B-C-E - A-G-F-G-C <br />
-	    E-A-B-C-E - A-A-B-C-B-A-G <br />
-	    <br />
-	    <br />
-      </p>
-  </div>
+ 
 </div>
 <div class="embed-responsive embed-responsive-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/tEaGTxBOLgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -69,5 +55,6 @@ Am&aacute;ndote hasta mi final.</strong><br />
 </div>	
 
 <div class="col col-lg-auto col-md-auto col-sm-auto">
-	<p align="center"><img src="img/partituras/hasta_mi_final.jpg" width="800" height="1035" class="img-fluid" /></p>
+	<p align="center"><img src="img/partituras/hasta_mi_final_001.jpg" width="800" height="1035" class="img-fluid" /></p>
+	<p align="center"><img src="img/partituras/hasta_mi_final_002.jpg" width="800" height="1035" class="img-fluid" /></p>
 </div>

@@ -1,10 +1,15 @@
 
   <p align="center"><strong>179. EUCARIST&Iacute;A</strong></p>
   <p>Pan transformado, en el Cuerpo <br />
+    A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F#m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D<br />
     de Cristo, vino transformado en <br />
-  la Sangre del Se&ntilde;or.</p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F#m<br />
+la Sangre del Se&ntilde;or.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E</p>
   <p><strong>Eucarist&iacute;a,    milagro    de    amor,<br />
-  Eucarist&iacute;a,    presencia    del    Se&ntilde;or.</strong></p>
+  F#m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C#m&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A<br />
+Eucarist&iacute;a,    presencia    del    Se&ntilde;or. (BIS) </strong><br />
+<strong>D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A</strong></p>
   <p>Cristo nos dice: &quot;Tomen y coman, <br />
     este es mi Cuerpo que ha sido <br />
     entregado&rdquo;</p>
@@ -23,5 +28,7 @@
   <p>En la familia, de todos los<br />
     cristianos, Cristo quiere  unirnos,<br />
   en la paz, y en el amor.</p>
-  <p>&nbsp;</p>
+	<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/9IupUlYooNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>	
 

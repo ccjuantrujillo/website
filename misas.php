@@ -28,7 +28,7 @@ $rs = mysqli_query($link,$query);
 	?>
 	<div class="container">
 		<div class="text-center"><H5><STRONG>MISAS Y LITURGIAS</STRONG></H5></div>
-                <div style="float:right;margin-top:0px;" class="collapse"><a href="agregar_misas.php"><img src="img/agregar.png" width="24" height="24" /></a></div>
+                <div style="float:right;margin-top:0px;"><a href="agregar_misas.php"><img src="img/agregar.png" width="24" height="24" /></a></div>
 		  <?php
 		    $ano_ant = 0;
 			while($row = mysqli_fetch_array($rs)){

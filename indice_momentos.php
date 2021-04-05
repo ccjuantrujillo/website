@@ -4,7 +4,7 @@ if(!isset($_SESSION['compania']))       $_SESSION['compania'] = 3;
 include_once "cancionero/clases/conexion.php";
 $busqueda = "";
 $valor = "";
-if(isset($_REQUEST["busqueda"]))   $busqueda = "where c.titulo like '%".$_REQUEST["busqueda"]."%'";
+if(isset($_REQUEST["busqueda"]))   $busqueda = "where c.CANCC_Titulo like '%".$_REQUEST["busqueda"]."%'";
 if(isset($_REQUEST["busqueda"]))   $valor = $_REQUEST["busqueda"];
 $query = "
 		SELECT cat.CATEGP_Codigo,
@@ -47,10 +47,10 @@ $rs = mysqli_query($link,$query);
     ?>
     <div class="container">
     <form method="post" id="frmBusqueda">
-      <input class="form-control mr-sm-2" type="search" placeholder="Buscar cancion" id="busqueda" name="busqueda" value="<?php echo $valor;?>">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar cancion" id="busqueda" name="busqueda" value="<?php echo $valor;?>" autocomplete="off">
       <!--button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button-->
     </form> 	
-        <div style="float:right;margin-top:0px;" class="collapse">
+        <div style="float:right;margin-top:0px;">
         <a href="agregar_canciones.php"><img src="img/agregar.png" width="24" height="24" /></a>
     </div>
         <?php

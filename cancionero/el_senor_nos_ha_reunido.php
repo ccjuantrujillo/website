@@ -26,8 +26,7 @@
 	<p>Al compartir tu pan, nos unimos <br />
 	Se&ntilde;or, tu Voluntad se haga en m&iacute;, <br />
 	llenas mi coraz&oacute;n, de alegr&iacute;a y paz <br />
-	contigo podr&eacute; yo caminar.</p>
-	<p>https://www.youtube.com/watch?v=q6WWeHXx8PU</p>
+contigo podr&eacute; yo caminar.</p>
 	<div class="embed-responsive embed-responsive-16by9">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/q6WWeHXx8PU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>	

@@ -1,5 +1,5 @@
 
-  <p align="center"><strong>166. EL SENOR NOS DA SU AMOR </strong></p>
+  <p align="center"><strong>166. EL SENOR NOS DA SU AMOR </strong>(En C ) </p>
   <p>El se&ntilde;or nos da su amor, como <br />
     D<br />
     nadie nos lo dio, &Eacute;l nos gu&iacute;a como <br />
