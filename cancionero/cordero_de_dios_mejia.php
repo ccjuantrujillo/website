@@ -17,7 +17,7 @@ G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em &nbs
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em&nbsp;&nbsp;&nbsp;G<br />
     pecado del mundo. Danos la paz, <br />
     A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em<br />
-    danos la paz, danos la paz, danos <br />
+    danos la paz, danos, danos , danos <br />
     A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D, Em&nbsp;A&nbsp;&nbsp;&nbsp;D &nbsp;G&nbsp;&nbsp;&nbsp;Em&nbsp;&nbsp;F#7<br />
 la paz. Danos, danos, danos paz. <br />
 BmB7 Em A&nbsp;D&nbsp;G&nbsp;&nbsp;&nbsp;Em&nbsp;F#7&nbsp;&nbsp;B </p>
