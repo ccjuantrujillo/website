@@ -3,14 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 // -------- Login -----------------//
-Route::get('/login','Auth\LoginController@showLoginForm')->name('login');
+Route::get('/','Auth\LoginController@showLoginForm')->name('login');
 Auth::routes();
-
-// -------- Web -----------------//
-Route::get('/', 'WebController@index')->name('web');
-Route::get('/lectura', 'WebController@lectura')->name('lectura');
-Route::get('/cancionero', 'WebController@cancionero')->name('cancionero');
-Route::get('/misas', 'WebController@misas')->name('misas');
 
 // -------- Home -----------------//
 Route::get('/home', 'HomeController@index')->name('home');
@@ -30,6 +24,10 @@ Route::get('/cancion_dt_ajax','Admin\CancionController@dtajax');
 // -------- Curso --------------------//
 Route::resource('curso','Admin\CursoController');
 Route::get('cursos-list-pdf', 'Admin\CursoController@exportPdf')->name('cursos.pdf');
+
+// -------- Misa --------------------//
+Route::resource('misa','Admin\MisaController');
+Route::get('misa-list-pdf', 'Admin\MisaController@exportPdf')->name('misa.pdf');
 
 //---------- Rutas para DataTable----------------
 Route::get('dataTableCancion','Admin\CancionController@dataTable')->name('dataTableCancion');

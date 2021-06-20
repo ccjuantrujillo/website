@@ -15,10 +15,8 @@
 	<p>Bendito	es	el	que	viene,	en	el<br />
 	  Am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em<br />
   nombre del Se&ntilde;or (2v).<br />
-  F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G</p>
-	<p>https://www.youtube.com/watch?v=i6mYPAJqJww</p>
-	
-<div class="embed-responsive embed-responsive-16by9">
+F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G</p>
+	<div class="embed-responsive embed-responsive-16by9">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/i6mYPAJqJww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 </div>	

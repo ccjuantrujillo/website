@@ -38,11 +38,13 @@
                   <td>{{$categ->CATEGC_Descripcion}}</td>
                   <td>{!!link_to_route('categoria.edit', $title = 'Editar', $parameters = $categ->CATEGP_Codigo, $attributes = ['class'=>'btn btn-success'])!!}</td>
                   <td>
-                    <form action="/categoria/{{ $categ->id }}" method="POST">
+                    {!!Form::open(['route'=>['categoria.destroy',$categ->CATEGP_Codigo],'method'=>'DELETE'])!!}
                         {{ csrf_field() }}
                         {{ method_field('DELETE') }}
-                        <button class="btn btn-danger">Eliminar</button>
-                    </form>
+                        {!!Form::submit('Eliminar',
+                              ['class'=>'btn btn-danger'])
+                        !!}
+                    {!!Form::close()!!}   
                    </td>
                 </tr>
                 @endforeach

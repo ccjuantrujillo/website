@@ -45,9 +45,9 @@
                 <small class="text-danger">Falta escribir el password</small>    
                 @enderror
             </div>            
-                {!!Form::submit('Agregar',['class'=>'btn btn-info'])!!}
-            <!-- Agregar boton de cancelar -->
+            {!!Form::submit('Agregar',['class'=>'btn btn-info'])!!}
             <a class="btn btn-danger" href="{{ route('usuario.index') }}">Cancelar</a>
+            
         {!!Form::close()!!}
     </div>
 </section>

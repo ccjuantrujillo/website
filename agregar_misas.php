@@ -182,19 +182,23 @@ if(isset($_POST["datepicker"]) && isset($_POST["descripcion"])){
 	<div class="container">
 	<form method="post" id="frmMisa">
 		<div class="form-group"></div>
+		
 		<div class="form-group row">
 			<label class="col-sm-2">Fecha</label>
 			<div class="col-sm-2">
 				<input type="text" name="datepicker" id="datepicker" class="form-control form-control-sm" autocomplete="off"/>			
 			</div>
 		</div>
+		
 		<div class="form-group row">
 			<label class="col-sm-2">Descripcion</label>
 			<div class="col-sm-10">
 				<input type="text" name="descripcion" id="descripcion" class="form-control form-control-sm" autocomplete="off"/>
 			</div>		
 		</div>	
+		
 		<hr>
+		
 		<div class="form-group row">
 			<label class="col-sm-2">ENTRADA: <a href='#' id="1"><b><font color="#FF0000">(+)</font></b></a></label>
 			<div class="col-sm-10 row"></div>
