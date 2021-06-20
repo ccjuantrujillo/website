@@ -9,9 +9,9 @@ Em&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &iexcl;Hosanna,hosanna!hosanna al Se&ntilde;or(BIS) <br />
   Em&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B7<br />
   <br />
-  Bendito el que viene en el nombre del Se&ntilde;or, 
+  Bendito es el que viene en el nombre del Se&ntilde;or, 
   <br />
-  todos los santos cantamos para ti.(BIS) 
+  con todos los santos cantando para ti.(BIS) 
   <br />
   <br />
 </p>
