@@ -11,11 +11,8 @@
     de nosotros (2v).</p>
   <p>Cordero de Dios (2v), que quitas<br />
     el pecado del mundo. Danos la <br />
-     paz (2v)</p>
-	 <p>
-  https://www.youtube.com/watch?v=kSewo_ysBjk</p>
-
-<div class="embed-responsive embed-responsive-16by9">
+paz (2v)</p>
+  <div class="embed-responsive embed-responsive-16by9">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/kSewo_ysBjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>	  
   
